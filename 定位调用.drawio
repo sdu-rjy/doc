@@ -48,7 +48,7 @@
           <mxGeometry x="85" y="1154" width="120" height="24.5" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-12" value="启动定位结果发布线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="85" y="1300.5" width="120" height="34.75" as="geometry" />
+          <mxGeometry x="72.5" y="1620" width="145" height="34.75" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
