@@ -97,7 +97,7 @@
           <mxGeometry x="310" y="337" width="250" height="33" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-36" value="指令不执行，退出" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="323.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="330.25" width="120" height="46.5" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-44" target="aDU9XjyVp7GIVLYesAcA-48">
           <mxGeometry relative="1" as="geometry" />
