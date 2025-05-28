@@ -161,7 +161,7 @@
         <mxCell id="aDU9XjyVp7GIVLYesAcA-58" value="是否成功加载默认地图？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="335" y="680" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aDU9XjyVp7GIVLYesAcA-63" value="提示先验信息不完整，退出" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-63" value="提示先验地图无法加载，退出" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="585" y="680.56" width="120" height="49.44" as="geometry" />
         </mxCell>
       </root>
