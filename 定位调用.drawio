@@ -148,16 +148,6 @@
         <mxCell id="aDU9XjyVp7GIVLYesAcA-56" value="提示先验信息不完整，退出" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="586.56" width="120" height="49.44" as="geometry" />
         </mxCell>
-        <mxCell id="aDU9XjyVp7GIVLYesAcA-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-58">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="435" y="805" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aDU9XjyVp7GIVLYesAcA-66" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aDU9XjyVp7GIVLYesAcA-61">
-          <mxGeometry x="-0.092" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-58" target="aDU9XjyVp7GIVLYesAcA-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -165,6 +155,9 @@
           <mxGeometry x="0.051" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-58" target="aDU9XjyVp7GIVLYesAcA-81">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-58" value="是否成功加载地图？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="335" y="680" width="200" height="50" as="geometry" />
@@ -205,6 +198,9 @@
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-76" value="提示先验信息不完整，退出" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1000" y="541.8399999999999" width="120" height="49.44" as="geometry" />
+        </mxCell>
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-81" value="开启指定定位模式重定位线程" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
