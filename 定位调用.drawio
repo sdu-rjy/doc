@@ -136,7 +136,7 @@
           <mxGeometry x="600" y="586.56" width="120" height="49.44" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-58" value="是否直接采用上次关机的姿态？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="335" y="680" width="200" height="70" as="geometry" />
+          <mxGeometry x="335" y="680" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
