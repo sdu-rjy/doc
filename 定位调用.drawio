@@ -175,6 +175,11 @@
         <mxCell id="aDU9XjyVp7GIVLYesAcA-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-67" target="aDU9XjyVp7GIVLYesAcA-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-79" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aDU9XjyVp7GIVLYesAcA-77">
+          <mxGeometry x="-0.2026" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-67" value="是否支持该&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;定位模式&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;？&amp;amp;&amp;amp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;指定姿态是否正常？&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="546.56" width="200" height="40" as="geometry" />
         </mxCell>
@@ -185,6 +190,11 @@
             <Array as="points">
               <mxPoint x="635" y="650" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-78" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aDU9XjyVp7GIVLYesAcA-71">
+          <mxGeometry x="-0.9058" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-72" target="aDU9XjyVp7GIVLYesAcA-67">
