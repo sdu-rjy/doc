@@ -1,19 +1,33 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.0">
   <diagram name="第 1 页" id="O1zmHwH_jpoI9-fM2c9w">
-    <mxGraphModel dx="259" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="443" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6JZeye2eDNHA_Utgmzkd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JZeye2eDNHA_Utgmzkd-1">
+        <mxCell id="6JZeye2eDNHA_Utgmzkd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6JZeye2eDNHA_Utgmzkd-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="205" y="140.02857142857135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6JZeye2eDNHA_Utgmzkd-1" value="gomros 产品" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="6JZeye2eDNHA_Utgmzkd-1" value="gomros 产品" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="110" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6JZeye2eDNHA_Utgmzkd-9" value="定位管理器组件启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JZeye2eDNHA_Utgmzkd-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JZeye2eDNHA_Utgmzkd-9" value="定位管理器组件启动" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="205" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-5" target="aDU9XjyVp7GIVLYesAcA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-5" value="启动定位算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-6" value="订阅传感器数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="360" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
