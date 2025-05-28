@@ -107,11 +107,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aDU9XjyVp7GIVLYesAcA-44" value="is reboot?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-44" value="是否为开机自启？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="526.5" width="270" height="43.5" as="geometry" />
         </mxCell>
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-48" target="aDU9XjyVp7GIVLYesAcA-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-48" value="加载关机前姿态/状态/定位模式" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="472.5" y="641.75" width="165" height="38.25" as="geometry" />
+          <mxGeometry x="472.5" y="621.75" width="165" height="38.25" as="geometry" />
+        </mxCell>
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-51" value="上次关机状态是否正常？&amp;amp;&amp;amp;&lt;div&gt;是否支持该&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;定位模式&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;？&amp;amp;&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;关机姿态是否正常？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="715.13" width="170" height="50.87" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
