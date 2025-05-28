@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.0">
   <diagram name="第 1 页" id="O1zmHwH_jpoI9-fM2c9w">
-    <mxGraphModel dx="1231" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="877" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -107,6 +107,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-44" target="aDU9XjyVp7GIVLYesAcA-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-69" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aDU9XjyVp7GIVLYesAcA-68">
+          <mxGeometry x="-0.3476" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-44" value="是否为开机自启？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="300" y="426.5" width="270" height="43.5" as="geometry" />
         </mxCell>
@@ -158,11 +166,23 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aDU9XjyVp7GIVLYesAcA-58" value="是否成功加载默认地图？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-58" value="是否成功加载地图？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="335" y="680" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-63" value="提示先验地图无法加载，退出" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="585" y="680.56" width="120" height="49.44" as="geometry" />
+        </mxCell>
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-67" value="是否支持该&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;定位模式&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="510" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-71" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="835" y="550" as="sourcePoint" />
+            <mxPoint x="435" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="635" y="650" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
