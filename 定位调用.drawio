@@ -63,7 +63,7 @@
           <mxGeometry x="270" y="174" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-26" value="分发给各个定位算法" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="169" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="180" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-28" target="aDU9XjyVp7GIVLYesAcA-30">
           <mxGeometry relative="1" as="geometry" />
