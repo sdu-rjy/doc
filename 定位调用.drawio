@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.0">
   <diagram name="第 1 页" id="O1zmHwH_jpoI9-fM2c9w">
-    <mxGraphModel dx="1270" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2631" dy="1594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -230,7 +230,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-89" value="将给定姿态分发给全部定位模式" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="375" y="910.5" width="120" height="40.5" as="geometry" />
+          <mxGeometry x="347.5" y="910.5" width="175" height="40.5" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-91" value="重定位完成退出" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="375" y="995.25" width="120" height="44.75" as="geometry" />
@@ -239,22 +239,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-94" value="开启指定定位模式重定位线程" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="900.75" width="180" height="39.25" as="geometry" />
+          <mxGeometry x="630" y="900" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-97" target="aDU9XjyVp7GIVLYesAcA-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-97" value="重定位线程结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="970" width="180" height="30" as="geometry" />
+          <mxGeometry x="630" y="965" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-99" target="aDU9XjyVp7GIVLYesAcA-100">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-99" value="将重定位结果分发给其他定位" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="1020" width="180" height="40.5" as="geometry" />
+          <mxGeometry x="630" y="1020" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-100" value="重定位完成退出" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="1080" width="180" height="44.75" as="geometry" />
+          <mxGeometry x="630" y="1080" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
