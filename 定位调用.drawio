@@ -45,7 +45,7 @@
           <mxGeometry x="205" y="408.5" width="120" height="24.5" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-12" value="启动定位结果发布线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="205" y="495.25" width="120" height="34.75" as="geometry" />
+          <mxGeometry x="205" y="460" width="120" height="34.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
