@@ -168,11 +168,15 @@
           <mxGeometry x="585" y="680.56" width="120" height="49.44" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-67" target="aDU9XjyVp7GIVLYesAcA-76">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="567" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-79" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aDU9XjyVp7GIVLYesAcA-77">
           <mxGeometry x="-0.2026" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="5" y="17" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-67" value="是否支持该&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;定位模式&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;？&amp;amp;&amp;amp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;指定姿态是否正常？&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -199,7 +203,7 @@
           <mxGeometry x="757.5" y="483.5" width="165" height="38.25" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-76" value="提示先验信息不完整，退出" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="541.8399999999999" width="120" height="49.44" as="geometry" />
+          <mxGeometry x="930" y="630.56" width="120" height="49.44" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-83" target="aDU9XjyVp7GIVLYesAcA-89">
           <mxGeometry relative="1" as="geometry" />
