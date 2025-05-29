@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.0">
   <diagram name="第 1 页" id="O1zmHwH_jpoI9-fM2c9w">
-    <mxGraphModel dx="1151" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2834" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -505,6 +505,9 @@
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-176" value="&lt;div&gt;记录当前车体姿态到文件（600ms）&lt;/div&gt;&lt;div&gt;定位模式/定位状态/x/y/t&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340.75" y="2300" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-180" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;dashed=1;dashPattern=1 2;strokeColor=#BF5122;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1598.5" width="760" height="761.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
