@@ -1519,7 +1519,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PddkBMGejFzzTT7TKB4m" name="二维码">
-    <mxGraphModel dx="784" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1192" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1549,6 +1549,57 @@
         </mxCell>
         <mxCell id="cthgWbjC9iTyhqZ5eWyB-11" value="实例化姿态健康监控" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="240" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="uo_LEm8xOXN9WTcBJjhD-2" target="uo_LEm8xOXN9WTcBJjhD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-2" value="定位管理器" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uo_LEm8xOXN9WTcBJjhD-4" target="uo_LEm8xOXN9WTcBJjhD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-4" value="重定位指令/ 启动线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="350" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uo_LEm8xOXN9WTcBJjhD-6" target="uo_LEm8xOXN9WTcBJjhD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-6" value="获取地图MapManager" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="430" width="155" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="uo_LEm8xOXN9WTcBJjhD-8" target="uo_LEm8xOXN9WTcBJjhD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-8" value="获取反光贴特征图层&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(25, 25, 20));&quot; face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;reflector_map&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="497" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="uo_LEm8xOXN9WTcBJjhD-10" target="uo_LEm8xOXN9WTcBJjhD-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-10" value="获取线特征地图图层&lt;div&gt;Line_map&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="560" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="uo_LEm8xOXN9WTcBJjhD-12" target="uo_LEm8xOXN9WTcBJjhD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-12" value="获取人工显著特征地图图层&lt;div&gt;Manual_map&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="620" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="uo_LEm8xOXN9WTcBJjhD-14" target="uo_LEm8xOXN9WTcBJjhD-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-14" value="获取正常地图图层&lt;div&gt;Normal_map&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="680" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="uo_LEm8xOXN9WTcBJjhD-16" target="uo_LEm8xOXN9WTcBJjhD-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-16" value="获取全部地图&lt;div&gt;Full_map&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="740" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uo_LEm8xOXN9WTcBJjhD-17" value="实例化快速相关性扫描匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="807" width="190" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
