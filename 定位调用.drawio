@@ -513,7 +513,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wSkBO2TJc6fSdFsGRQRD" name="反光柱定位逻辑">
-    <mxGraphModel dx="1302" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1034,7 +1034,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hy72CQkbNjRuyaTWoBOU-12" value="关联上的反光柱个数 &amp;gt;= 3" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-12" target="hy72CQkbNjRuyaTWoBOU-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-51" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hy72CQkbNjRuyaTWoBOU-24">
+          <mxGeometry x="-0.4367" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-12" value="关联上的反光柱个数 &amp;gt;= 3？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2370" y="396" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hy72CQkbNjRuyaTWoBOU-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-14" target="hy72CQkbNjRuyaTWoBOU-17">
@@ -1046,11 +1054,94 @@
         <mxCell id="hy72CQkbNjRuyaTWoBOU-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-17" target="hy72CQkbNjRuyaTWoBOU-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hy72CQkbNjRuyaTWoBOU-17" value="剩余反光柱个数 &amp;gt;= 3" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-39" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hy72CQkbNjRuyaTWoBOU-20">
+          <mxGeometry x="-0.417" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-17" target="hy72CQkbNjRuyaTWoBOU-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-44" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hy72CQkbNjRuyaTWoBOU-42">
+          <mxGeometry x="-0.2671" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-17" value="剩余反光柱个数 &amp;gt;= 3?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2386.25" y="603" width="217.5" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-19" target="hy72CQkbNjRuyaTWoBOU-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2495" y="760" />
+              <mxPoint x="2819" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hy72CQkbNjRuyaTWoBOU-19" value="多边定位+ICP验算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2400" y="709" width="190" height="42" as="geometry" />
+          <mxGeometry x="2400" y="692.25" width="190" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-23" target="hy72CQkbNjRuyaTWoBOU-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-33" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hy72CQkbNjRuyaTWoBOU-26">
+          <mxGeometry x="-0.4191" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-23" target="hy72CQkbNjRuyaTWoBOU-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-32" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hy72CQkbNjRuyaTWoBOU-30">
+          <mxGeometry x="-0.4683" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-23" value="关联上的反光柱个数 == 2？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2704" y="483" width="230" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-25" target="hy72CQkbNjRuyaTWoBOU-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-25" value="根据关联结果首先计算出旋转&lt;div&gt;再利用最小二乘法计算出平移&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2731.5" y="593.5" width="175" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-27" value="&lt;div&gt;观测数据是否更新标志位置为true&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;输出观测更新定位结果&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2726.5" y="791" width="185" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-29" target="hy72CQkbNjRuyaTWoBOU-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-46" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hy72CQkbNjRuyaTWoBOU-45">
+          <mxGeometry x="-0.2302" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-29" target="hy72CQkbNjRuyaTWoBOU-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-49" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hy72CQkbNjRuyaTWoBOU-48">
+          <mxGeometry x="-0.5021" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-29" value="关联上的反光柱个数 == 1？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2964" y="599.5" width="230" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-34" target="hy72CQkbNjRuyaTWoBOU-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-34" value="利用EKF进行更新" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2991.5" y="698.5" width="175" height="29.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-41" target="hy72CQkbNjRuyaTWoBOU-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-41" value="更新关联情况" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2630" y="558.5" width="88.5" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-47" value="&lt;div&gt;观测数据是否更新标志位置为true&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;输出预测定位结果&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3194" y="791" width="210" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
