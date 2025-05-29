@@ -1026,8 +1026,31 @@
         <mxCell id="hy72CQkbNjRuyaTWoBOU-10" value="数据关联，获取地图和观测的1对1匹配" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2380" y="320" width="230" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-12" target="hy72CQkbNjRuyaTWoBOU-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-16" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hy72CQkbNjRuyaTWoBOU-15">
+          <mxGeometry x="-0.2482" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hy72CQkbNjRuyaTWoBOU-12" value="关联上的反光柱个数 &amp;gt;= 3" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2370" y="396" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-14" target="hy72CQkbNjRuyaTWoBOU-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-14" value="去除匹配后误差超出阈值的反光柱" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="523" width="250" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-17" target="hy72CQkbNjRuyaTWoBOU-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-17" value="剩余反光柱个数 &amp;gt;= 3" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2386.25" y="603" width="217.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="709" width="250" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
