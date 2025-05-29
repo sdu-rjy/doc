@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.0" pages="2">
   <diagram name="定位调用逻辑" id="O1zmHwH_jpoI9-fM2c9w">
-    <mxGraphModel dx="1602" dy="970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1698" dy="970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -554,31 +554,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-8" value="定位管理器" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="430" width="30" height="60" as="geometry" />
+          <mxGeometry x="110" y="406" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-9" target="CgDDeLmh9pLUF06dq7iG-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-9" value="重定位指令/ 启动线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="440" width="170" height="40" as="geometry" />
+          <mxGeometry x="220" y="416" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-11" target="CgDDeLmh9pLUF06dq7iG-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-11" value="获取地图MapManager" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="227.5" y="520" width="155" height="40" as="geometry" />
+          <mxGeometry x="227.5" y="496" width="155" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-13" target="CgDDeLmh9pLUF06dq7iG-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-13" value="获取反光柱特征图层" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="587" width="190" height="40" as="geometry" />
+          <mxGeometry x="210" y="563" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-15" target="CgDDeLmh9pLUF06dq7iG-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-15" value="分发给全局定位器/EKF定位器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="222.5" y="654" width="165" height="40" as="geometry" />
+          <mxGeometry x="222.5" y="630" width="165" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-17" target="CgDDeLmh9pLUF06dq7iG-19">
           <mxGeometry relative="1" as="geometry" />
@@ -597,20 +597,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-17" value="地图是否存在3个以上反光柱？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="217.5" y="747" width="175" height="80" as="geometry" />
+          <mxGeometry x="217.5" y="723" width="175" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-19" target="CgDDeLmh9pLUF06dq7iG-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-19" value="定位状态跳转至ReLocationError" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="730" y="830" width="170" height="40" as="geometry" />
+          <mxGeometry x="730" y="806" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-23" value="退出线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="730" y="934" width="170" height="30" as="geometry" />
+          <mxGeometry x="730" y="910" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-26" target="CgDDeLmh9pLUF06dq7iG-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="417.5" y="910" as="sourcePoint" />
+            <mxPoint x="417.5" y="886" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-43" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CgDDeLmh9pLUF06dq7iG-34">
@@ -627,7 +627,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-26" value="是否超时？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="217.5" y="870" width="175" height="80" as="geometry" />
+          <mxGeometry x="217.5" y="846" width="175" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-27" target="CgDDeLmh9pLUF06dq7iG-30">
           <mxGeometry relative="1" as="geometry" />
@@ -639,10 +639,10 @@
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="840" as="targetPoint" />
+            <mxPoint x="310" y="816" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="620" y="1020" />
-              <mxPoint x="620" y="840" />
+              <mxPoint x="620" y="996" />
+              <mxPoint x="620" y="816" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -652,7 +652,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-27" value="是否获取连续50帧&lt;div&gt;静止反光柱数据？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="425" y="980" width="175" height="80" as="geometry" />
+          <mxGeometry x="425" y="956" width="175" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-30" target="CgDDeLmh9pLUF06dq7iG-31">
           <mxGeometry relative="1" as="geometry" />
@@ -671,13 +671,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-30" value="观测反光柱个数是否&amp;gt;3?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="425" y="1100" width="175" height="80" as="geometry" />
+          <mxGeometry x="425" y="1076" width="175" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-31" target="CgDDeLmh9pLUF06dq7iG-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-31" value="传入全局定位器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="412.5" y="1240" width="200" height="40" as="geometry" />
+          <mxGeometry x="412.5" y="1216" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-33" target="CgDDeLmh9pLUF06dq7iG-56">
           <mxGeometry relative="1" as="geometry" />
@@ -696,43 +696,43 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-33" value="是否获取全局定位结果？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="425" y="1330" width="175" height="80" as="geometry" />
+          <mxGeometry x="425" y="1306" width="175" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-36" target="CgDDeLmh9pLUF06dq7iG-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-36" value="定位状态跳转至ReLocationError" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="245" y="1040" width="120" height="60" as="geometry" />
+          <mxGeometry x="245" y="1016" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-38" value="退出线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1140" width="170" height="30" as="geometry" />
+          <mxGeometry x="220" y="1116" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-51">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="309.9999999999998" y="840" as="targetPoint" />
+            <mxPoint x="309.9999999999998" y="816" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="720" y="1050" />
-              <mxPoint x="720" y="840" />
+              <mxPoint x="720" y="1026" />
+              <mxPoint x="720" y="816" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-51" value="清空全部观测反光柱数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="650" y="1050" width="142.5" height="30" as="geometry" />
+          <mxGeometry x="650" y="1026" width="142.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-56" target="CgDDeLmh9pLUF06dq7iG-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-56" value="将重定位结果赋值给当前定位结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="412.5" y="1445" width="200" height="40" as="geometry" />
+          <mxGeometry x="412.5" y="1421" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-58" target="CgDDeLmh9pLUF06dq7iG-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-58" value="状态跳转至RealTimeLocation" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="412.5" y="1574" width="200" height="40" as="geometry" />
+          <mxGeometry x="412.5" y="1550" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-60" value="退出线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="412.5" y="1634" width="200" height="40" as="geometry" />
+          <mxGeometry x="412.5" y="1610" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-66" target="CgDDeLmh9pLUF06dq7iG-68">
           <mxGeometry relative="1" as="geometry" />
@@ -817,7 +817,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-88" value="将重定位结果赋值给当前定位结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="412.5" y="1510" width="200" height="40" as="geometry" />
+          <mxGeometry x="412.5" y="1486" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-93" target="CgDDeLmh9pLUF06dq7iG-96">
           <mxGeometry relative="1" as="geometry" />
