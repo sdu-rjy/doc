@@ -1149,7 +1149,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_Xtd0m-KtiOOxum6PCxz" name="Scan Match">
-    <mxGraphModel dx="653" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="825" dy="1252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1338,6 +1338,27 @@
         </mxCell>
         <mxCell id="82oY0Kd_0Ml4RFAP4ueI-31" value="退出线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="1480" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJ_Q5gNf1zIcj5vDkkj0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;" edge="1" parent="1" source="82oY0Kd_0Ml4RFAP4ueI-39" target="NJ_Q5gNf1zIcj5vDkkj0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-39" value="定位管理器" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1550" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NJ_Q5gNf1zIcj5vDkkj0-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="NJ_Q5gNf1zIcj5vDkkj0-1" target="NJ_Q5gNf1zIcj5vDkkj0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJ_Q5gNf1zIcj5vDkkj0-1" value="开启实时定位线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1565" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJ_Q5gNf1zIcj5vDkkj0-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="NJ_Q5gNf1zIcj5vDkkj0-3" target="NJ_Q5gNf1zIcj5vDkkj0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJ_Q5gNf1zIcj5vDkkj0-3" value="&lt;div&gt;姿态是否出现不健康状态？&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;定位状态为RealTimeLocation&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1650" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NJ_Q5gNf1zIcj5vDkkj0-5" value="定位状态修改为RealTimeLocationError" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1770" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
