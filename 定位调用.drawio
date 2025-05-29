@@ -760,6 +760,15 @@
         <mxCell id="CgDDeLmh9pLUF06dq7iG-69" value="&lt;div&gt;姿态是否出现不健康状态？&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;定位状态为RealTimeLocation&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1312.5" y="160" width="165" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1390" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1265" y="300" />
+              <mxPoint x="1265" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-71" value="定位状态修改为RealTimeLocationError" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1285" y="280" width="220" height="40" as="geometry" />
         </mxCell>
