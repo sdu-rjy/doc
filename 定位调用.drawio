@@ -513,7 +513,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wSkBO2TJc6fSdFsGRQRD" name="反光柱定位逻辑">
-    <mxGraphModel dx="407" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1447" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -771,8 +771,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CgDDeLmh9pLUF06dq7iG-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-78" target="CgDDeLmh9pLUF06dq7iG-86">
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-78" target="CgDDeLmh9pLUF06dq7iG-93">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-95" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CgDDeLmh9pLUF06dq7iG-94">
+          <mxGeometry x="-0.3244" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-78" value="定位状态是否为RealTimeLocation？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1600" y="252" width="200" height="80" as="geometry" />
@@ -781,28 +786,38 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-80" value="刷新全部里程计数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1810" y="332" width="220" height="40" as="geometry" />
+          <mxGeometry x="1810" y="326" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CgDDeLmh9pLUF06dq7iG-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-81">
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-97">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1400" y="110" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2050" y="440" />
+              <mxPoint x="2030" y="460" />
+              <mxPoint x="2050" y="460" />
               <mxPoint x="2050" y="110" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CgDDeLmh9pLUF06dq7iG-81" value="将所有观测到的反光柱作为新识别类型" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1810" y="420" width="220" height="40" as="geometry" />
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-81" target="CgDDeLmh9pLUF06dq7iG-97">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CgDDeLmh9pLUF06dq7iG-86" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="422" width="120" height="60" as="geometry" />
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-81" value="获取最新反光柱数据作为新观测" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="387" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-88" target="CgDDeLmh9pLUF06dq7iG-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-88" value="将重定位结果赋值给当前定位结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="412.5" y="1510" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-93" value="是否获取反光柱数据？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="463" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-96" value="刷新全部里程计数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="503" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-97" value="清空全部反光柱数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="439" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
