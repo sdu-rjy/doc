@@ -1539,16 +1539,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cthgWbjC9iTyhqZ5eWyB-8" value="实例化 姿态推测器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="120" width="210" height="40" as="geometry" />
+          <mxGeometry x="140" y="100" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cthgWbjC9iTyhqZ5eWyB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cthgWbjC9iTyhqZ5eWyB-10" target="cthgWbjC9iTyhqZ5eWyB-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cthgWbjC9iTyhqZ5eWyB-10" value="初始化定位状态为Free" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="192" width="210" height="40" as="geometry" />
+          <mxGeometry x="140" y="172" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cthgWbjC9iTyhqZ5eWyB-11" value="实例化姿态健康监控" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="260" width="210" height="40" as="geometry" />
+          <mxGeometry x="140" y="240" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
