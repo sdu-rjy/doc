@@ -786,7 +786,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-80" value="刷新全部里程计数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1810" y="326" width="220" height="40" as="geometry" />
+          <mxGeometry x="1810" y="326" width="220" height="34" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-97">
           <mxGeometry relative="1" as="geometry">
@@ -802,7 +802,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-81" value="获取最新反光柱数据作为新观测" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1810" y="387" width="220" height="40" as="geometry" />
+          <mxGeometry x="1810" y="382" width="220" height="33" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-88" target="CgDDeLmh9pLUF06dq7iG-58">
           <mxGeometry relative="1" as="geometry" />
@@ -814,10 +814,13 @@
           <mxGeometry x="1610" y="463" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-96" value="刷新全部里程计数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1810" y="503" width="220" height="40" as="geometry" />
+          <mxGeometry x="1810" y="530" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-97" value="清空全部反光柱数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1810" y="439" width="220" height="40" as="geometry" />
+          <mxGeometry x="1810" y="439" width="220" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-97" target="CgDDeLmh9pLUF06dq7iG-97">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
