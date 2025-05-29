@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.0">
   <diagram name="第 1 页" id="O1zmHwH_jpoI9-fM2c9w">
-    <mxGraphModel dx="2834" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1364" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-104" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;dashed=1;dashPattern=1 2;strokeColor=#BF5122;" vertex="1" parent="1">
+          <mxGeometry x="250" y="230" width="760" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-133" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;dashed=1;dashPattern=1 2;strokeColor=#BF5122;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1120" width="760" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="aDU9XjyVp7GIVLYesAcA-180" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;dashed=1;dashPattern=1 2;strokeColor=#BF5122;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1598.5" width="760" height="761.5" as="geometry" />
+        </mxCell>
         <mxCell id="6JZeye2eDNHA_Utgmzkd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6JZeye2eDNHA_Utgmzkd-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="85" y="40.028571428571354" as="targetPoint" />
@@ -263,9 +272,6 @@
         <mxCell id="aDU9XjyVp7GIVLYesAcA-100" value="重定位完成退出" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="1064" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aDU9XjyVp7GIVLYesAcA-104" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;dashed=1;dashPattern=1 2;strokeColor=#BF5122;" vertex="1" parent="1">
-          <mxGeometry x="250" y="230" width="760" height="880" as="geometry" />
-        </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-105" target="aDU9XjyVp7GIVLYesAcA-107">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -360,9 +366,6 @@
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-129" value="返回没有指定定位模式的提示，退出" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="753.5" y="1440" width="202.5" height="38.38" as="geometry" />
-        </mxCell>
-        <mxCell id="aDU9XjyVp7GIVLYesAcA-133" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;dashed=1;dashPattern=1 2;strokeColor=#BF5122;" vertex="1" parent="1">
-          <mxGeometry x="250" y="1120" width="760" height="440" as="geometry" />
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aDU9XjyVp7GIVLYesAcA-134" target="aDU9XjyVp7GIVLYesAcA-136">
           <mxGeometry relative="1" as="geometry" />
@@ -505,9 +508,6 @@
         </mxCell>
         <mxCell id="aDU9XjyVp7GIVLYesAcA-176" value="&lt;div&gt;记录当前车体姿态到文件（600ms）&lt;/div&gt;&lt;div&gt;定位模式/定位状态/x/y/t&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340.75" y="2300" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aDU9XjyVp7GIVLYesAcA-180" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;dashed=1;dashPattern=1 2;strokeColor=#BF5122;" vertex="1" parent="1">
-          <mxGeometry x="250" y="1598.5" width="760" height="761.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
