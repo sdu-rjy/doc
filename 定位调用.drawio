@@ -513,7 +513,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wSkBO2TJc6fSdFsGRQRD" name="反光柱定位逻辑">
-    <mxGraphModel dx="2170" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -603,10 +603,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-19" value="定位状态跳转至ReLocationError" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="599" y="830" width="170" height="40" as="geometry" />
+          <mxGeometry x="730" y="830" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-23" value="退出线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="599" y="934" width="170" height="30" as="geometry" />
+          <mxGeometry x="730" y="934" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-26" target="CgDDeLmh9pLUF06dq7iG-27">
           <mxGeometry relative="1" as="geometry">
@@ -632,11 +632,43 @@
         <mxCell id="CgDDeLmh9pLUF06dq7iG-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-27" target="CgDDeLmh9pLUF06dq7iG-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-47" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CgDDeLmh9pLUF06dq7iG-40">
+          <mxGeometry x="-0.2778" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="1020" />
+              <mxPoint x="620" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-48" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CgDDeLmh9pLUF06dq7iG-46">
+          <mxGeometry x="-0.6166" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-27" value="是否获取连续50帧&lt;div&gt;静止反光柱数据？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="425" y="980" width="175" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-30" target="CgDDeLmh9pLUF06dq7iG-31">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-49" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CgDDeLmh9pLUF06dq7iG-32">
+          <mxGeometry x="-0.0359" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-30" target="CgDDeLmh9pLUF06dq7iG-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-55" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CgDDeLmh9pLUF06dq7iG-52">
+          <mxGeometry x="-0.0022" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-30" value="观测反光柱个数是否&amp;gt;3?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="425" y="1100" width="175" height="80" as="geometry" />
@@ -647,7 +679,7 @@
         <mxCell id="CgDDeLmh9pLUF06dq7iG-31" value="传入全局定位器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="412.5" y="1240" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CgDDeLmh9pLUF06dq7iG-33" value="观测反光柱个数是否&amp;gt;3?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-33" value="是否获取全局定位结果？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="425" y="1330" width="175" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-36" target="CgDDeLmh9pLUF06dq7iG-38">
@@ -658,6 +690,18 @@
         </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-38" value="退出线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="1140" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="309.9999999999998" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="1050" />
+              <mxPoint x="720" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-51" value="清空全部观测反光柱数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1050" width="142.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
