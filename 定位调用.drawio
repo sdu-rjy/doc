@@ -1221,8 +1221,14 @@
         <mxCell id="ul_qxTfKQqpgtGmzsq3t-16" value="获取正常地图图层&lt;div&gt;Normal_map&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="670" width="190" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="xGY416P_fg-HWPfkON4Z-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="ul_qxTfKQqpgtGmzsq3t-18" target="xGY416P_fg-HWPfkON4Z-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ul_qxTfKQqpgtGmzsq3t-18" value="获取全部地图&lt;div&gt;Full_map&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="730" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xGY416P_fg-HWPfkON4Z-1" value="启动分支定位及" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="797" width="190" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
