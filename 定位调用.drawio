@@ -1819,6 +1819,9 @@
         <mxCell id="XmGB-dqs-5Io1azfCdjf-1" value="累计不健康历程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="722" y="1810" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="atIq5rF_8eIX6d8klObA-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;二维码定位算法 流程图&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="422.5" y="20" width="615" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
