@@ -513,7 +513,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wSkBO2TJc6fSdFsGRQRD" name="反光柱定位逻辑">
-    <mxGraphModel dx="1698" dy="970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="479" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -887,11 +887,22 @@
         <mxCell id="CgDDeLmh9pLUF06dq7iG-107" value="是否采用多边定位？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1630" y="690" width="140" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-109" target="CgDDeLmh9pLUF06dq7iG-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-109" value="反光柱数据传入全局定位器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1620" y="810" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgDDeLmh9pLUF06dq7iG-111">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1700" y="909.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CgDDeLmh9pLUF06dq7iG-111" value="反光柱数据传入EKF定位器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1820" y="810" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CgDDeLmh9pLUF06dq7iG-117" value="是否获取观测更新？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="909" width="200" height="61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
