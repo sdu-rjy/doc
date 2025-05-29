@@ -1531,7 +1531,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PddkBMGejFzzTT7TKB4m" name="二维码">
-    <mxGraphModel dx="2431" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="826" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1770,11 +1770,45 @@
         <mxCell id="XI2vRCs8OoQEENTesrae-9" value="更新姿态推测器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="498" y="1860" width="172.5" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="XmGB-dqs-5Io1azfCdjf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="XI2vRCs8OoQEENTesrae-10" target="V83G2989eItG4cspKd1s-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="584" y="1993" />
+              <mxPoint x="1040" y="1993" />
+              <mxPoint x="1040" y="1400" />
+              <mxPoint x="305" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="XI2vRCs8OoQEENTesrae-10" value="重置不健康历程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="498" y="1933" width="172.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XI2vRCs8OoQEENTesrae-14" value="计算出车体姿态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="XmGB-dqs-5Io1azfCdjf-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="XI2vRCs8OoQEENTesrae-14" target="XmGB-dqs-5Io1azfCdjf-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XI2vRCs8OoQEENTesrae-14" value="刷新全部里程计数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="720" y="1790" width="172.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XI2vRCs8OoQEENTesrae-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.55;entryY=-0.065;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="XI2vRCs8OoQEENTesrae-3" target="XI2vRCs8OoQEENTesrae-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XI2vRCs8OoQEENTesrae-18" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="XI2vRCs8OoQEENTesrae-17">
+          <mxGeometry x="-0.3326" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XmGB-dqs-5Io1azfCdjf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="XmGB-dqs-5Io1azfCdjf-1" target="V83G2989eItG4cspKd1s-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="807" y="1950" />
+              <mxPoint x="1040" y="1950" />
+              <mxPoint x="1040" y="1400" />
+              <mxPoint x="305" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XmGB-dqs-5Io1azfCdjf-1" value="累计不健康历程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="722" y="1860" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
