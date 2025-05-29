@@ -513,7 +513,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wSkBO2TJc6fSdFsGRQRD" name="反光柱定位逻辑">
-    <mxGraphModel dx="1860" dy="1063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="447" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1000,8 +1000,28 @@
         <mxCell id="hy72CQkbNjRuyaTWoBOU-1" value="反光柱定位算法" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="2220" y="50" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-2" target="hy72CQkbNjRuyaTWoBOU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hy72CQkbNjRuyaTWoBOU-2" value="&lt;h2&gt;反光柱观测数据&lt;/h2&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="2370" y="50" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2495.285714285714" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-6" value="先验姿态刷新至反光柱观测时间戳" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2385" y="180" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-8" target="hy72CQkbNjRuyaTWoBOU-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-8" value="观测数据是否更新标志位置为false" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2385" y="252" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-10" value="数据关联，获取地图和观测的1对1匹配" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="320" width="230" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
