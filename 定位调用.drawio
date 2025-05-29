@@ -1531,7 +1531,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PddkBMGejFzzTT7TKB4m" name="二维码">
-    <mxGraphModel dx="1181" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="922" dy="1399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1693,6 +1693,32 @@
         </mxCell>
         <mxCell id="Rv780_pvUucGm89cD8GR-2" value="退出线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="396.25" y="1190" width="172.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V83G2989eItG4cspKd1s-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;" edge="1" parent="1" source="V83G2989eItG4cspKd1s-2" target="V83G2989eItG4cspKd1s-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V83G2989eItG4cspKd1s-2" value="定位管理器" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V83G2989eItG4cspKd1s-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="V83G2989eItG4cspKd1s-4" target="V83G2989eItG4cspKd1s-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V83G2989eItG4cspKd1s-4" value="开启实时定位线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1325" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V83G2989eItG4cspKd1s-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="V83G2989eItG4cspKd1s-5" target="V83G2989eItG4cspKd1s-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V83G2989eItG4cspKd1s-9" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="V83G2989eItG4cspKd1s-8">
+          <mxGeometry x="-0.3012" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V83G2989eItG4cspKd1s-5" value="&lt;div&gt;姿态是否出现不健康状态？&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;定位状态为RealTimeLocation&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="187.5" y="1420" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V83G2989eItG4cspKd1s-7" value="定位状态修改为RealTimeLocationError" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="1550" width="255" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
