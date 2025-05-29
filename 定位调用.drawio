@@ -1020,8 +1020,14 @@
         <mxCell id="hy72CQkbNjRuyaTWoBOU-8" value="观测数据是否更新标志位置为false" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2385" y="252" width="220" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hy72CQkbNjRuyaTWoBOU-10" target="hy72CQkbNjRuyaTWoBOU-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hy72CQkbNjRuyaTWoBOU-10" value="数据关联，获取地图和观测的1对1匹配" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2380" y="320" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hy72CQkbNjRuyaTWoBOU-12" value="关联上的反光柱个数 &amp;gt;= 3" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="396" width="250" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
