@@ -1149,7 +1149,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_Xtd0m-KtiOOxum6PCxz" name="Scan Match">
-    <mxGraphModel dx="541" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="448" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1241,6 +1241,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="82oY0Kd_0Ml4RFAP4ueI-1" target="82oY0Kd_0Ml4RFAP4ueI-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="82oY0Kd_0Ml4RFAP4ueI-1" value="是否超时？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="880" width="190" height="48.5" as="geometry" />
         </mxCell>
@@ -1252,6 +1255,51 @@
         </mxCell>
         <mxCell id="82oY0Kd_0Ml4RFAP4ueI-9" value="退出线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="185" y="1040" width="120" height="34.13" as="geometry" />
+        </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="82oY0Kd_0Ml4RFAP4ueI-17" target="82oY0Kd_0Ml4RFAP4ueI-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-17" value="是否获取到雷达数据？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="958.75" width="190" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="82oY0Kd_0Ml4RFAP4ueI-19" target="82oY0Kd_0Ml4RFAP4ueI-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-19" value="将初始姿态/雷达数据传入实例化快速相关性扫描匹配算法" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="1081.5" width="185" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="82oY0Kd_0Ml4RFAP4ueI-21" target="82oY0Kd_0Ml4RFAP4ueI-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-21" value="输出定位结果及得分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1150" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="82oY0Kd_0Ml4RFAP4ueI-23" target="82oY0Kd_0Ml4RFAP4ueI-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-23" value="重定位得分是否满足阈值？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1235" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="82oY0Kd_0Ml4RFAP4ueI-25" target="82oY0Kd_0Ml4RFAP4ueI-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-25" value="将重定位结果赋值给当前定位结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1320" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="82oY0Kd_0Ml4RFAP4ueI-27" target="82oY0Kd_0Ml4RFAP4ueI-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-27" value="刷新姿态推测器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1380" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="82oY0Kd_0Ml4RFAP4ueI-29" target="82oY0Kd_0Ml4RFAP4ueI-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-29" value="切换状态至RealTimeLocation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1430" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="82oY0Kd_0Ml4RFAP4ueI-31" value="退出线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1480" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
