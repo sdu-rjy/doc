@@ -1840,40 +1840,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ynjB4ScxFI6ZOJ70T87t-7" value="初始化LocationManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1470" y="170" width="170" height="60" as="geometry" />
+          <mxGeometry x="-1470" y="157" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="G2Bko-4iXuR3gILyIswf-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2Bko-4iXuR3gILyIswf-1" target="G2Bko-4iXuR3gILyIswf-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G2Bko-4iXuR3gILyIswf-1" value="实例化各种定位算法" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1475" y="270" width="180" height="60" as="geometry" />
+          <mxGeometry x="-1475" y="254" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="G2Bko-4iXuR3gILyIswf-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2Bko-4iXuR3gILyIswf-5" target="G2Bko-4iXuR3gILyIswf-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G2Bko-4iXuR3gILyIswf-5" value="启动全部算法的实时定位线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1475" y="370" width="180" height="60" as="geometry" />
+          <mxGeometry x="-1475" y="352" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="G2Bko-4iXuR3gILyIswf-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2Bko-4iXuR3gILyIswf-7" target="G2Bko-4iXuR3gILyIswf-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G2Bko-4iXuR3gILyIswf-7" value="订阅传感器话题" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1475" y="460" width="180" height="60" as="geometry" />
+          <mxGeometry x="-1475" y="449" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qx6gPYHKWcOkQzBwFE-A-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2Bko-4iXuR3gILyIswf-9" target="qx6gPYHKWcOkQzBwFE-A-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G2Bko-4iXuR3gILyIswf-9" value="订阅重定位指令" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1475" y="555" width="180" height="60" as="geometry" />
+          <mxGeometry x="-1475" y="546" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qx6gPYHKWcOkQzBwFE-A-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qx6gPYHKWcOkQzBwFE-A-1" target="qx6gPYHKWcOkQzBwFE-A-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qx6gPYHKWcOkQzBwFE-A-1" value="订阅切换定位模式指令" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1475" y="650" width="180" height="60" as="geometry" />
+          <mxGeometry x="-1475" y="643" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sKI0aOkZWQNGFUlE-zOU-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qx6gPYHKWcOkQzBwFE-A-3" target="sKI0aOkZWQNGFUlE-zOU-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qx6gPYHKWcOkQzBwFE-A-3" value="启动定位结果发布线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1475" y="745" width="180" height="60" as="geometry" />
+          <mxGeometry x="-1475" y="743" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sKI0aOkZWQNGFUlE-zOU-1" value="启动定位结果发布线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1475" y="840" width="180" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
