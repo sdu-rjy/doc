@@ -1865,11 +1865,6 @@
             <mxPoint x="-1385" y="606" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sKI0aOkZWQNGFUlE-zOU-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" target="sKI0aOkZWQNGFUlE-zOU-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1385" y="775.0000000000002" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="sKI0aOkZWQNGFUlE-zOU-3" value="是否为重定位状态？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1467.5" y="820" width="165" height="80" as="geometry" />
         </mxCell>
