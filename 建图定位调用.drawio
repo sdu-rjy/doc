@@ -3784,7 +3784,10 @@
           <mxGeometry x="590.4100000000001" y="1950" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BMqWjx4VBVFvDmHwlMfP-3" value="绝对定位单独做成一个组件！" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1719" y="862" width="120" height="60" as="geometry" />
+          <mxGeometry x="1719.32" y="794" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BMqWjx4VBVFvDmHwlMfP-4" value="需要增加全局绝对定位和局部绝对定位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1722.5" y="906.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
