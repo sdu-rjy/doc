@@ -1915,7 +1915,7 @@
         <mxCell id="ynmQIISmO3TQp11vWq-k-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ynmQIISmO3TQp11vWq-k-38" target="ynmQIISmO3TQp11vWq-k-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ynmQIISmO3TQp11vWq-k-38" value="初始化Manager" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ynmQIISmO3TQp11vWq-k-38" value="初始化融合定位Manager" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-962" y="-1103" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ynmQIISmO3TQp11vWq-k-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ynmQIISmO3TQp11vWq-k-39" target="ynmQIISmO3TQp11vWq-k-56" edge="1">
