@@ -1821,7 +1821,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="顺序结构流程图" id="XpehW9qCYbc9wdTKIv5-">
-    <mxGraphModel dx="2395" dy="2241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2743" dy="2745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2417,6 +2417,21 @@
         </mxCell>
         <mxCell id="ynmQIISmO3TQp11vWq-k-61" value="加载参数" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-967" y="-1030" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ynmQIISmO3TQp11vWq-k-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ynmQIISmO3TQp11vWq-k-65" target="ynmQIISmO3TQp11vWq-k-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ynmQIISmO3TQp11vWq-k-65" value="加载状态及姿态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-967" y="-620" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ynmQIISmO3TQp11vWq-k-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ynmQIISmO3TQp11vWq-k-70" target="ynmQIISmO3TQp11vWq-k-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ynmQIISmO3TQp11vWq-k-70" value="启动重定位" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-967" y="-520" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ynmQIISmO3TQp11vWq-k-72" value="注册相关话题" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-967" y="-400" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
