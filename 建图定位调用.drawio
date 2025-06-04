@@ -3779,20 +3779,20 @@
         <mxCell id="22V_tRLQmmyR--t17WRu-227" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-228" target="22V_tRLQmmyR--t17WRu-230" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22V_tRLQmmyR--t17WRu-228" value="读取历史的状态及姿态" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="22V_tRLQmmyR--t17WRu-228" value="读取历史的状态，姿态, 定位模式" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="590.4100000000001" y="1846" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-229" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-230" target="22V_tRLQmmyR--t17WRu-231" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-230" value="启动重定位" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeColor=light-dark(#FF66FF,#EDEDED);" parent="1" vertex="1">
-          <mxGeometry x="590.4100000000001" y="1936" width="180" height="40" as="geometry" />
+          <mxGeometry x="590.4100000000001" y="2060" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-231" target="22V_tRLQmmyR--t17WRu-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-231" value="注册相关话题" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="590.4100000000001" y="2027" width="180" height="40" as="geometry" />
+          <mxGeometry x="590.4100000000001" y="2151" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IZZKqKrySqorBpsH3vY4-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;重定位线程&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1497.5" y="170" width="380" height="30" as="geometry" />
@@ -3802,6 +3802,9 @@
         </mxCell>
         <mxCell id="IZZKqKrySqorBpsH3vY4-3" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;实时定位线程&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3457.5" y="180" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_kY-rh6Xjgb40ULpb82-1" value="构造tcp指令" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeColor=light-dark(#FF66FF,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="590.4100000000001" y="1950" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
