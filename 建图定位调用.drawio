@@ -1821,7 +1821,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="顺序结构流程图" id="XpehW9qCYbc9wdTKIv5-">
-    <mxGraphModel dx="2743" dy="2745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2580" dy="2509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2371,6 +2371,19 @@
         <mxCell id="ynmQIISmO3TQp11vWq-k-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ynmQIISmO3TQp11vWq-k-39" target="ynmQIISmO3TQp11vWq-k-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ynmQIISmO3TQp11vWq-k-84" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ynmQIISmO3TQp11vWq-k-60">
+          <mxGeometry x="-0.2606" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynmQIISmO3TQp11vWq-k-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ynmQIISmO3TQp11vWq-k-39" target="ynmQIISmO3TQp11vWq-k-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ynmQIISmO3TQp11vWq-k-83" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ynmQIISmO3TQp11vWq-k-82">
+          <mxGeometry x="-0.8055" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ynmQIISmO3TQp11vWq-k-39" value="是否正确加载参数？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-953.25" y="-942" width="152.5" height="80" as="geometry" />
         </mxCell>
@@ -2407,7 +2420,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ynmQIISmO3TQp11vWq-k-56" value="实例化各种定位算法" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-967" y="-842" width="180" height="60" as="geometry" />
+          <mxGeometry x="-967" y="-820" width="180" height="38" as="geometry" />
         </mxCell>
         <mxCell id="ynmQIISmO3TQp11vWq-k-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ynmQIISmO3TQp11vWq-k-57" target="ynmQIISmO3TQp11vWq-k-58">
           <mxGeometry relative="1" as="geometry" />
@@ -2445,8 +2458,11 @@
         <mxCell id="ynmQIISmO3TQp11vWq-k-72" value="注册相关话题" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-967" y="-380" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ynmQIISmO3TQp11vWq-k-77" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;结束&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ynmQIISmO3TQp11vWq-k-77" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;正常结束&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-962" y="-290" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ynmQIISmO3TQp11vWq-k-81" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;异常结束&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-742.5" y="-290" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
