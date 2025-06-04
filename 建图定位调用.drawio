@@ -1865,6 +1865,9 @@
             <mxPoint x="-1385" y="606" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="SKPdC9D-KbiSuy6OV4kg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="sKI0aOkZWQNGFUlE-zOU-5" target="GE_cjHtZ8i6hQsV4qglU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sKI0aOkZWQNGFUlE-zOU-5" value="Laser&lt;div&gt;QR&lt;/div&gt;&lt;div&gt;IMU&lt;/div&gt;&lt;div&gt;Motor encoder&lt;/div&gt;&lt;div&gt;relocation topic&lt;/div&gt;&lt;div&gt;change location topic&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="-1485" y="670" width="200" height="100" as="geometry" />
         </mxCell>
