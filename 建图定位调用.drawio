@@ -1826,7 +1826,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="顺序结构流程图" id="XpehW9qCYbc9wdTKIv5-">
-    <mxGraphModel dx="2580" dy="1340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3275" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1885,6 +1885,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GE_cjHtZ8i6hQsV4qglU-5" target="ZD50Uz5E1aUWbLatseCM-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-88" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZD50Uz5E1aUWbLatseCM-87">
+          <mxGeometry x="-0.3348" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GE_cjHtZ8i6hQsV4qglU-5" value="是否收到重定位指令？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1467.5" y="820" width="165" height="80" as="geometry" />
         </mxCell>
@@ -1905,7 +1913,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GE_cjHtZ8i6hQsV4qglU-6" value="是否收到切换定位指令？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1120" y="940" width="165" height="80" as="geometry" />
+          <mxGeometry x="-782.5" y="964.12" width="165" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hrmqRCHZqWMAE4EhRmGx-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hrmqRCHZqWMAE4EhRmGx-5" target="hrmqRCHZqWMAE4EhRmGx-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1918,8 +1926,8 @@
         <mxCell id="hrmqRCHZqWMAE4EhRmGx-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.979;exitY=0.464;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="hrmqRCHZqWMAE4EhRmGx-5" target="hrmqRCHZqWMAE4EhRmGx-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-935" y="1092" />
-              <mxPoint x="-851" y="1092" />
+              <mxPoint x="-597.5" y="1116.12" />
+              <mxPoint x="-513.5" y="1116.12" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1929,13 +1937,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hrmqRCHZqWMAE4EhRmGx-5" value="指定定位模式&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;是否和&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;当前定位模式一样？&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1147.5" y="1070" width="220" height="43.75" as="geometry" />
+          <mxGeometry x="-810" y="1094.12" width="220" height="43.75" as="geometry" />
         </mxCell>
         <mxCell id="hrmqRCHZqWMAE4EhRmGx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hrmqRCHZqWMAE4EhRmGx-6" target="hrmqRCHZqWMAE4EhRmGx-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hrmqRCHZqWMAE4EhRmGx-6" value="不改变当前定位模式" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1097.5" y="1286" width="120" height="38.38" as="geometry" />
+          <mxGeometry x="-760" y="1310.12" width="120" height="38.38" as="geometry" />
         </mxCell>
         <mxCell id="hrmqRCHZqWMAE4EhRmGx-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hrmqRCHZqWMAE4EhRmGx-11" target="hrmqRCHZqWMAE4EhRmGx-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1954,28 +1962,186 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hrmqRCHZqWMAE4EhRmGx-11" value="&lt;div&gt;是否有指定的定位方式&lt;/div&gt;&lt;div&gt;对应的算法？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-951" y="1135.63" width="200" height="50" as="geometry" />
+          <mxGeometry x="-613.5" y="1159.75" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hrmqRCHZqWMAE4EhRmGx-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hrmqRCHZqWMAE4EhRmGx-13" target="hrmqRCHZqWMAE4EhRmGx-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hrmqRCHZqWMAE4EhRmGx-13" value="将当前定位结果分给其他定位方式" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-951" y="1214" width="200" height="40" as="geometry" />
+          <mxGeometry x="-613.5" y="1238.12" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hrmqRCHZqWMAE4EhRmGx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="hrmqRCHZqWMAE4EhRmGx-14" target="hrmqRCHZqWMAE4EhRmGx-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hrmqRCHZqWMAE4EhRmGx-14" value="当前定位模式设置为指定定位方式" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-946" y="1284" width="190" height="40" as="geometry" />
+          <mxGeometry x="-608.5" y="1308.12" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hrmqRCHZqWMAE4EhRmGx-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hrmqRCHZqWMAE4EhRmGx-15" target="hrmqRCHZqWMAE4EhRmGx-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hrmqRCHZqWMAE4EhRmGx-15" value="不改变当前定位模式" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-730" y="1284" width="202.5" height="38.38" as="geometry" />
+          <mxGeometry x="-392.5" y="1308.12" width="202.5" height="38.38" as="geometry" />
         </mxCell>
         <mxCell id="hrmqRCHZqWMAE4EhRmGx-18" value="遍历获取当前定位模式结果" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-974.75" y="1410" width="247.5" height="38.38" as="geometry" />
+          <mxGeometry x="-637.25" y="1434.12" width="247.5" height="38.38" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-48" target="ZD50Uz5E1aUWbLatseCM-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-45" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZD50Uz5E1aUWbLatseCM-44">
+          <mxGeometry x="-0.2176" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-48" target="ZD50Uz5E1aUWbLatseCM-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-47" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZD50Uz5E1aUWbLatseCM-46">
+          <mxGeometry x="-0.1398" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-48" value="是否为初始化定位？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1520" y="950" width="270" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-50" target="ZD50Uz5E1aUWbLatseCM-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-50" value="加载关机前姿态/状态/定位模式" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1467.5" y="1045.25" width="165" height="38.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1385" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-52" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZD50Uz5E1aUWbLatseCM-51">
+          <mxGeometry x="0.2981" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-55" target="ZD50Uz5E1aUWbLatseCM-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-54" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZD50Uz5E1aUWbLatseCM-53">
+          <mxGeometry x="0.1056" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-55" value="上次机器状态是否正常？&amp;amp;&amp;amp;&lt;div&gt;是否支持该&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;定位模式&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;？&amp;amp;&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;关机姿态是否正常？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1470" y="1108.63" width="170" height="50.87" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-56" value="提示先验信息不完整，退出" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1212" y="1110.06" width="70" height="49.44" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-60" target="ZD50Uz5E1aUWbLatseCM-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-58" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZD50Uz5E1aUWbLatseCM-57">
+          <mxGeometry x="0.051" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-60" target="ZD50Uz5E1aUWbLatseCM-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1385" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-60" value="是否成功加载地图？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1485" y="1203.5" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-61" value="提示先验地图无法加载，退出" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1227" y="1204.06" width="65" height="49.44" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-64" target="ZD50Uz5E1aUWbLatseCM-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-887" y="1090.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-63" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZD50Uz5E1aUWbLatseCM-62">
+          <mxGeometry x="-0.2026" y="-3" relative="1" as="geometry">
+            <mxPoint x="5" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-64" value="是否支持该&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;定位模式&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;？&amp;amp;&amp;amp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;指定姿态是否正常？&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1137" y="1070.06" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-65" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-977" y="1073.5" as="sourcePoint" />
+            <mxPoint x="-1377" y="1173.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1177" y="1173.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-66" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZD50Uz5E1aUWbLatseCM-65">
+          <mxGeometry x="-0.9058" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-68" target="ZD50Uz5E1aUWbLatseCM-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-68" value="获取指定姿态/定位模式" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1119.5" y="1007" width="165" height="38.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-69" value="提示先验信息不完整，退出" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-947" y="1154.06" width="120" height="49.44" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-74" target="ZD50Uz5E1aUWbLatseCM-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-71" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZD50Uz5E1aUWbLatseCM-70">
+          <mxGeometry x="-0.253" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-74" target="ZD50Uz5E1aUWbLatseCM-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-73" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZD50Uz5E1aUWbLatseCM-72">
+          <mxGeometry x="0.268" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-74" value="是否直接采用给定的姿态？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1492.5" y="1340.5" width="215" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-76" target="ZD50Uz5E1aUWbLatseCM-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-76" value="将当前定位模式修改为指定定位模式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1445" y="1273.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-78" target="ZD50Uz5E1aUWbLatseCM-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-78" value="将给定姿态分发给全部定位模式" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1472.5" y="1467.25" width="175" height="40.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-79" value="重定位完成" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1475" y="1582.75" width="180" height="37.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-81" target="ZD50Uz5E1aUWbLatseCM-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-81" value="开启指定定位模式重定位线程" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1182" y="1407.5" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-83" target="ZD50Uz5E1aUWbLatseCM-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-83" value="重定位线程结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1182" y="1472.5" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-85" target="ZD50Uz5E1aUWbLatseCM-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-85" value="将重定位结果分发给其他定位" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1182" y="1527.5" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
