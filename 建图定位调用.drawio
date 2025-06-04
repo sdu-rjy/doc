@@ -1821,7 +1821,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="顺序结构流程图" id="XpehW9qCYbc9wdTKIv5-">
-    <mxGraphModel dx="2580" dy="2509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4004" dy="2512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2425,13 +2425,13 @@
         <mxCell id="ynmQIISmO3TQp11vWq-k-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ynmQIISmO3TQp11vWq-k-57" target="ynmQIISmO3TQp11vWq-k-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ynmQIISmO3TQp11vWq-k-57" value="启动全部算法的实时定位线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ynmQIISmO3TQp11vWq-k-57" value="启动全部算法的实时定位线程" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeColor=light-dark(#e51010, #ededed);" vertex="1" parent="1">
           <mxGeometry x="-967" y="-742" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ynmQIISmO3TQp11vWq-k-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ynmQIISmO3TQp11vWq-k-58" target="ynmQIISmO3TQp11vWq-k-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ynmQIISmO3TQp11vWq-k-58" value="启动定位结果发布线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ynmQIISmO3TQp11vWq-k-58" value="启动定位结果发布线程" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeColor=light-dark(#e51010, #ededed);" vertex="1" parent="1">
           <mxGeometry x="-967" y="-651" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ynmQIISmO3TQp11vWq-k-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ynmQIISmO3TQp11vWq-k-61" target="ynmQIISmO3TQp11vWq-k-39">
@@ -2449,7 +2449,7 @@
         <mxCell id="ynmQIISmO3TQp11vWq-k-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ynmQIISmO3TQp11vWq-k-70" target="ynmQIISmO3TQp11vWq-k-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ynmQIISmO3TQp11vWq-k-70" value="启动重定位" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ynmQIISmO3TQp11vWq-k-70" value="启动重定位" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeColor=light-dark(#e51010, #ededed);" vertex="1" parent="1">
           <mxGeometry x="-967" y="-471" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ynmQIISmO3TQp11vWq-k-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ynmQIISmO3TQp11vWq-k-72" target="ynmQIISmO3TQp11vWq-k-77">
