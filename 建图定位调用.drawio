@@ -2035,7 +2035,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZD50Uz5E1aUWbLatseCM-56" value="提示先验信息不完整" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1860" y="1478.0600000000002" width="170" height="49.44" as="geometry" />
+          <mxGeometry x="-1830" y="1478.0600000000002" width="170" height="49.44" as="geometry" />
         </mxCell>
         <mxCell id="ZD50Uz5E1aUWbLatseCM-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-60" target="ZD50Uz5E1aUWbLatseCM-61">
           <mxGeometry relative="1" as="geometry" />
@@ -2057,7 +2057,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZD50Uz5E1aUWbLatseCM-61" value="提示先验地图无法加载" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1660" y="1478.06" width="155" height="49.44" as="geometry" />
+          <mxGeometry x="-1647.5" y="1478.06" width="155" height="49.44" as="geometry" />
         </mxCell>
         <mxCell id="ZD50Uz5E1aUWbLatseCM-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-64" target="ZD50Uz5E1aUWbLatseCM-69">
           <mxGeometry relative="1" as="geometry">
@@ -2151,6 +2151,15 @@
         </mxCell>
         <mxCell id="ZD50Uz5E1aUWbLatseCM-85" value="将重定位结果分发给其他定位" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1182" y="1527.5" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.003;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-79" target="sKI0aOkZWQNGFUlE-zOU-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1385" y="1720" />
+              <mxPoint x="-1850" y="1720" />
+              <mxPoint x="-1850" y="712" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
