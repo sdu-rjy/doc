@@ -1826,7 +1826,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="顺序结构流程图" id="XpehW9qCYbc9wdTKIv5-">
-    <mxGraphModel dx="4439" dy="1119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6096" dy="2066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1869,7 +1869,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sKI0aOkZWQNGFUlE-zOU-5" value="Laser&lt;div&gt;QR&lt;/div&gt;&lt;div&gt;IMU&lt;/div&gt;&lt;div&gt;Motor encoder&lt;/div&gt;&lt;div&gt;relocation topic&lt;/div&gt;&lt;div&gt;change location topic&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="-1485" y="670" width="200" height="100" as="geometry" />
+          <mxGeometry x="-1485" y="673" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="sKI0aOkZWQNGFUlE-zOU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="sKI0aOkZWQNGFUlE-zOU-10" target="sKI0aOkZWQNGFUlE-zOU-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1981,6 +1981,9 @@
         </mxCell>
         <mxCell id="hrmqRCHZqWMAE4EhRmGx-15" value="不改变当前定位模式" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-392.5" y="1308.12" width="202.5" height="38.38" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hrmqRCHZqWMAE4EhRmGx-18" target="9J_6TTWaz5KvoAYEEdz9-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hrmqRCHZqWMAE4EhRmGx-18" value="遍历获取当前定位模式结果" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-637.25" y="1434.12" width="247.5" height="38.38" as="geometry" />
@@ -2152,14 +2155,126 @@
         <mxCell id="ZD50Uz5E1aUWbLatseCM-85" value="将重定位结果分发给其他定位" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1182" y="1527.5" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZD50Uz5E1aUWbLatseCM-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.003;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZD50Uz5E1aUWbLatseCM-79" target="sKI0aOkZWQNGFUlE-zOU-5">
+        <mxCell id="ZD50Uz5E1aUWbLatseCM-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.003;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1385" y="1631.01" as="sourcePoint" />
+            <mxPoint x="-1484.4" y="722.81" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1385" y="1720" />
-              <mxPoint x="-1850" y="1720" />
-              <mxPoint x="-1850" y="712" />
+              <mxPoint x="-1385" y="1731.01" />
+              <mxPoint x="-1850" y="1731.01" />
+              <mxPoint x="-1850" y="723.01" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9J_6TTWaz5KvoAYEEdz9-5" target="9J_6TTWaz5KvoAYEEdz9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-2" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9J_6TTWaz5KvoAYEEdz9-1">
+          <mxGeometry x="-0.4043" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9J_6TTWaz5KvoAYEEdz9-5" target="9J_6TTWaz5KvoAYEEdz9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-4" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9J_6TTWaz5KvoAYEEdz9-3">
+          <mxGeometry x="-0.1965" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-5" value="定位是否为正常状态？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-608.5" y="1536" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9J_6TTWaz5KvoAYEEdz9-10" target="9J_6TTWaz5KvoAYEEdz9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-7" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9J_6TTWaz5KvoAYEEdz9-6">
+          <mxGeometry x="-0.3802" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9J_6TTWaz5KvoAYEEdz9-10" target="9J_6TTWaz5KvoAYEEdz9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-9" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9J_6TTWaz5KvoAYEEdz9-8">
+          <mxGeometry x="-0.0014" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-10" value="轨迹平滑预存数据是否&amp;gt;10?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-603" y="1610" width="179" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9J_6TTWaz5KvoAYEEdz9-12" target="9J_6TTWaz5KvoAYEEdz9-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-12" value="重置轨迹平滑器数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-289" y="1585.5" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9J_6TTWaz5KvoAYEEdz9-14" target="9J_6TTWaz5KvoAYEEdz9-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-14" value="获取当前姿态/状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-289" y="1654.5" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9J_6TTWaz5KvoAYEEdz9-16" target="9J_6TTWaz5KvoAYEEdz9-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-16" value="获取当前姿态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-427.25" y="1664" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9J_6TTWaz5KvoAYEEdz9-18" target="9J_6TTWaz5KvoAYEEdz9-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-18" value="获取当前姿态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-585.375" y="1697" width="143.75" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9J_6TTWaz5KvoAYEEdz9-20" target="9J_6TTWaz5KvoAYEEdz9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-20" value="获取10帧数据的匀速运动模型下下获得平滑姿态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-585.375" y="1750" width="143.75" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9J_6TTWaz5KvoAYEEdz9-22" target="9J_6TTWaz5KvoAYEEdz9-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-22" value="传入轨迹平滑器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-427.25" y="1731" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9J_6TTWaz5KvoAYEEdz9-24" target="9J_6TTWaz5KvoAYEEdz9-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9J_6TTWaz5KvoAYEEdz9-24" target="9J_6TTWaz5KvoAYEEdz9-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-24" value="当前姿态放入轨迹平滑器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-585.375" y="1800" width="143.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9J_6TTWaz5KvoAYEEdz9-26" target="9J_6TTWaz5KvoAYEEdz9-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-26" value="发布平滑姿态/状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-585.375" y="1860" width="143.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9J_6TTWaz5KvoAYEEdz9-28" target="9J_6TTWaz5KvoAYEEdz9-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-28" value="发布当前姿态/状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-439.125" y="1860" width="143.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9J_6TTWaz5KvoAYEEdz9-29" target="sKI0aOkZWQNGFUlE-zOU-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-514" y="2020" />
+              <mxPoint x="-1850" y="2020" />
+              <mxPoint x="-1850" y="723" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-29" value="&lt;div&gt;记录当前车体姿态到文件（600ms）&lt;/div&gt;&lt;div&gt;定位模式/定位状态/x/y/t&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-623.5" y="1960" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9J_6TTWaz5KvoAYEEdz9-31" value="当前姿态放入轨迹平滑器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-585.375" y="1910" width="143.75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
