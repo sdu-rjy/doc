@@ -3761,7 +3761,7 @@
         <mxCell id="22V_tRLQmmyR--t17WRu-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-222" target="22V_tRLQmmyR--t17WRu-224" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22V_tRLQmmyR--t17WRu-222" value="启动全部算法的实时定位线程" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeColor=light-dark(#2253c3, #ededed);" parent="1" vertex="1">
+        <mxCell id="22V_tRLQmmyR--t17WRu-222" value="启动对应算法的实时定位线程" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeColor=light-dark(#2253c3, #ededed);" parent="1" vertex="1">
           <mxGeometry x="590.4100000000001" y="1665" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-224" target="22V_tRLQmmyR--t17WRu-228" edge="1">
