@@ -1821,11 +1821,11 @@
     </mxGraphModel>
   </diagram>
   <diagram name="顺序结构流程图" id="XpehW9qCYbc9wdTKIv5-">
-    <mxGraphModel dx="4004" dy="2512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4419" dy="2749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0i31n0Jwy1bgBP8grNcj-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF33FF;dashed=1;dashPattern=8 8;strokeWidth=3;" vertex="1" parent="1">
+        <mxCell id="0i31n0Jwy1bgBP8grNcj-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF33FF;dashed=1;dashPattern=8 8;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-431.37" y="-1113" width="861.37" height="923" as="geometry" />
         </mxCell>
         <mxCell id="ynmQIISmO3TQp11vWq-k-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ynjB4ScxFI6ZOJ70T87t-2" target="ynmQIISmO3TQp11vWq-k-1">
