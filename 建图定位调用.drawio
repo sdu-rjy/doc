@@ -3779,7 +3779,7 @@
         <mxCell id="22V_tRLQmmyR--t17WRu-227" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-228" target="22V_tRLQmmyR--t17WRu-230" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22V_tRLQmmyR--t17WRu-228" value="加载状态及姿态" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="22V_tRLQmmyR--t17WRu-228" value="读取历史的状态及姿态" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="590.4100000000001" y="1846" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-229" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-230" target="22V_tRLQmmyR--t17WRu-231" edge="1">
