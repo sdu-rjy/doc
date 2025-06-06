@@ -3055,12 +3055,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TNz6VGbpKtbN26wCR5Xc" name="第 7 页">
-    <mxGraphModel dx="1880" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1621" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="22V_tRLQmmyR--t17WRu-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF33FF;dashed=1;dashPattern=8 8;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1348.63" y="221" width="861.37" height="879" as="geometry" />
+          <mxGeometry x="1348.63" y="221" width="861.37" height="969" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-3" target="22V_tRLQmmyR--t17WRu-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -3148,7 +3148,7 @@
         <mxCell id="22V_tRLQmmyR--t17WRu-54" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;指令" style="shape=actor;whiteSpace=wrap;html=1;strokeColor=#FF66FF;" parent="1" vertex="1">
           <mxGeometry x="1367" y="237" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="22V_tRLQmmyR--t17WRu-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-56" target="22V_tRLQmmyR--t17WRu-61" edge="1">
+        <mxCell id="_lndG8AzcG4rjFOxGJL5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="22V_tRLQmmyR--t17WRu-56" target="_lndG8AzcG4rjFOxGJL5-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-56" value="获取当前定位模式及状态" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -3171,10 +3171,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-61" value="!ReLocation?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1460" y="341" width="250" height="33" as="geometry" />
+          <mxGeometry x="1460" y="444.13" width="250" height="33" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-62" value="指令不执行，退出" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1810" y="334.25" width="120" height="46.5" as="geometry" />
+          <mxGeometry x="1810" y="437.38" width="120" height="46.5" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-67" target="22V_tRLQmmyR--t17WRu-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -3193,17 +3193,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-67" value="是否为初始化定位？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1450" y="430.5" width="270" height="43.5" as="geometry" />
+          <mxGeometry x="1450" y="533.63" width="270" height="43.5" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-69" target="22V_tRLQmmyR--t17WRu-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-69" value="获取历史姿态/状态/定位模式" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1502.5" y="525.75" width="165" height="38.25" as="geometry" />
+          <mxGeometry x="1502.5" y="628.88" width="165" height="38.25" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-74" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1585" y="684" as="targetPoint" />
+            <mxPoint x="1585" y="787.13" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-71" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="22V_tRLQmmyR--t17WRu-70" vertex="1" connectable="0">
@@ -3220,10 +3220,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-74" value="上次机器状态是否正常？&amp;amp;&amp;amp;&lt;div&gt;是否支持该&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;定位模式&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;？&amp;amp;&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;关机姿态是否正常？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="589.13" width="170" height="50.87" as="geometry" />
+          <mxGeometry x="1500" y="692.26" width="170" height="50.87" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-75" value="提示先验信息不完整，退出（不能粗暴退出）" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1750" y="580" width="90" height="60" as="geometry" />
+          <mxGeometry x="1750" y="683.13" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-79" target="22V_tRLQmmyR--t17WRu-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -3235,19 +3235,19 @@
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-79" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1584.904761904762" y="754" as="targetPoint" />
+            <mxPoint x="1584.904761904762" y="857.13" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-79" value="是否成功加载地图？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1485" y="684" width="200" height="50" as="geometry" />
+          <mxGeometry x="1485" y="787.13" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-80" value="提示先验地图无法加载，退出" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1735" y="684.56" width="65" height="49.44" as="geometry" />
+          <mxGeometry x="1735" y="787.6899999999999" width="65" height="49.44" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-83" target="22V_tRLQmmyR--t17WRu-88" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2075" y="571" />
+              <mxPoint x="2075" y="674.13" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3257,14 +3257,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-83" value="是否支持该&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;定位模式&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;？&amp;amp;&amp;amp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;指定姿态是否正常？&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1825" y="550.56" width="200" height="40" as="geometry" />
+          <mxGeometry x="1825" y="653.6899999999999" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-84" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-83" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1985" y="554" as="sourcePoint" />
-            <mxPoint x="1585" y="654" as="targetPoint" />
+            <mxPoint x="1985" y="657.13" as="sourcePoint" />
+            <mxPoint x="1585" y="757.13" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1785" y="654" />
+              <mxPoint x="1785" y="757.13" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3277,16 +3277,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-87" value="获取指定姿态/定位模式" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1842.5" y="487.5" width="165" height="38.25" as="geometry" />
+          <mxGeometry x="1842.5" y="590.63" width="165" height="38.25" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-88" value="提示先验信息不完整，退出" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2015" y="634.56" width="120" height="49.44" as="geometry" />
+          <mxGeometry x="2015" y="737.6899999999999" width="120" height="49.44" as="geometry" />
         </mxCell>
         <mxCell id="BMqWjx4VBVFvDmHwlMfP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-95" target="22V_tRLQmmyR--t17WRu-100" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-95" value="将当前定位模式修改为指定定位模式" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1525" y="754" width="120" height="40" as="geometry" />
+          <mxGeometry x="1525" y="857.13" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -3297,22 +3297,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-100" value="开启指定定位模式重定位线程" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1495" y="841.5" width="180" height="40" as="geometry" />
+          <mxGeometry x="1495" y="944.63" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-102" target="22V_tRLQmmyR--t17WRu-104" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-102" value="重定位线程结束" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1495" y="906.5" width="180" height="30" as="geometry" />
+          <mxGeometry x="1495" y="1009.63" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-104" target="22V_tRLQmmyR--t17WRu-105" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-104" value="将重定位结果分发给其他定位" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1495" y="961.5" width="180" height="40" as="geometry" />
+          <mxGeometry x="1495" y="1064.63" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-105" value="重定位完成退出" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1495" y="1021.5" width="180" height="40" as="geometry" />
+          <mxGeometry x="1495" y="1124.63" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-106" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=3;size=20;indent=5;fillColor=none;dashed=1;dashPattern=8 8;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="2310" y="250" width="760" height="890" as="geometry" />
@@ -3779,19 +3779,28 @@
           <mxGeometry x="590.4100000000001" y="1950" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BMqWjx4VBVFvDmHwlMfP-3" value="绝对定位单独做成一个组件！" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1719.32" y="794" width="120" height="60" as="geometry" />
+          <mxGeometry x="1719.32" y="897.13" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BMqWjx4VBVFvDmHwlMfP-4" value="需要增加全局绝对定位和局部绝对定位" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1722.5" y="906.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="SmGhcGj1UBcFPhhWW_Xf-1" value="从哪里拿到的结果？" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2880" y="457" width="120" height="60" as="geometry" />
+          <mxGeometry x="1722.5" y="1009.63" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_lndG8AzcG4rjFOxGJL5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_lndG8AzcG4rjFOxGJL5-1" target="22V_tRLQmmyR--t17WRu-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_lndG8AzcG4rjFOxGJL5-1" value="获取当前定位算法模式&lt;div&gt;对应的算法对象&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2420.25" y="441.5" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_lndG8AzcG4rjFOxGJL5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_lndG8AzcG4rjFOxGJL5-6" target="22V_tRLQmmyR--t17WRu-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_lndG8AzcG4rjFOxGJL5-6" value="从算法对象中获取当前定位状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="377" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_lndG8AzcG4rjFOxGJL5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_lndG8AzcG4rjFOxGJL5-7" target="_lndG8AzcG4rjFOxGJL5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_lndG8AzcG4rjFOxGJL5-7" value="获取当前定位算法模式&lt;div&gt;对应的算法对象&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="307.94" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
