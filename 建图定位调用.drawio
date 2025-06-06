@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.3" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.3" pages="7">
   <diagram name="定位调用逻辑" id="DZArnhB4XrpR0fae_HU6">
     <mxGraphModel dx="1621" dy="2095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3055,7 +3055,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TNz6VGbpKtbN26wCR5Xc" name="第 7 页">
-    <mxGraphModel dx="1534" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1880" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3282,13 +3282,13 @@
         <mxCell id="22V_tRLQmmyR--t17WRu-88" value="提示先验信息不完整，退出" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2015" y="634.56" width="120" height="49.44" as="geometry" />
         </mxCell>
-        <mxCell id="BMqWjx4VBVFvDmHwlMfP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="22V_tRLQmmyR--t17WRu-95" target="22V_tRLQmmyR--t17WRu-100">
+        <mxCell id="BMqWjx4VBVFvDmHwlMfP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-95" target="22V_tRLQmmyR--t17WRu-100" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-95" value="将当前定位模式修改为指定定位模式" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1525" y="754" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="22V_tRLQmmyR--t17WRu-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="22V_tRLQmmyR--t17WRu-98" edge="1">
+        <mxCell id="22V_tRLQmmyR--t17WRu-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1585" y="955" as="sourcePoint" />
           </mxGeometry>
@@ -3315,7 +3315,7 @@
           <mxGeometry x="1495" y="1021.5" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-106" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=3;size=20;indent=5;fillColor=none;dashed=1;dashPattern=8 8;strokeColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="2310" y="250" width="760" height="761.5" as="geometry" />
+          <mxGeometry x="2310" y="250" width="760" height="890" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-108" target="22V_tRLQmmyR--t17WRu-112" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -3323,15 +3323,10 @@
         <mxCell id="22V_tRLQmmyR--t17WRu-108" value="启动线程" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2404.5" y="258.8800000000001" width="212.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="22V_tRLQmmyR--t17WRu-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-112" target="22V_tRLQmmyR--t17WRu-114" edge="1">
+        <mxCell id="22V_tRLQmmyR--t17WRu-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-112" target="22V_tRLQmmyR--t17WRu-121" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22V_tRLQmmyR--t17WRu-110" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="22V_tRLQmmyR--t17WRu-109" vertex="1" connectable="0">
-          <mxGeometry x="0.0432" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="22V_tRLQmmyR--t17WRu-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-112" target="22V_tRLQmmyR--t17WRu-121" edge="1">
+        <mxCell id="_lndG8AzcG4rjFOxGJL5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="22V_tRLQmmyR--t17WRu-112" target="_lndG8AzcG4rjFOxGJL5-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-112" value="传感器数据是否接收正常？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -3340,8 +3335,8 @@
         <mxCell id="22V_tRLQmmyR--t17WRu-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-114" target="22V_tRLQmmyR--t17WRu-119" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22V_tRLQmmyR--t17WRu-114" value="获取当前定位模式对应算法结果" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2420.75" y="461.5" width="180" height="40" as="geometry" />
+        <mxCell id="22V_tRLQmmyR--t17WRu-114" value="从算法对象中获取当前定位状态" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2420.75" y="510.56" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-119" target="22V_tRLQmmyR--t17WRu-126" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -3360,7 +3355,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-119" value="结果是否为正常状态？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2415.75" y="537.5" width="190" height="40" as="geometry" />
+          <mxGeometry x="2415.75" y="611.5" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-121" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -3391,73 +3386,73 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-126" value="轨迹平滑器预存数据是否&amp;gt;10?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2421.25" y="611.5" width="179" height="54" as="geometry" />
+          <mxGeometry x="2421.25" y="685.5" width="179" height="54" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-128" target="22V_tRLQmmyR--t17WRu-130" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-128" value="重置轨迹平滑器数据" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2742" y="587" width="120" height="34" as="geometry" />
+          <mxGeometry x="2742" y="661" width="120" height="34" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-130" target="22V_tRLQmmyR--t17WRu-144" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-130" value="获取当前姿态/状态" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2742" y="656" width="120" height="34" as="geometry" />
+          <mxGeometry x="2742" y="730" width="120" height="34" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-132" target="22V_tRLQmmyR--t17WRu-138" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-132" value="获取当前姿态" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2603.75" y="665.5" width="120" height="34" as="geometry" />
+          <mxGeometry x="2603.75" y="739.5" width="120" height="34" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-134" target="22V_tRLQmmyR--t17WRu-136" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-134" value="获取当前姿态" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2438.875" y="698.5" width="143.75" height="34" as="geometry" />
+          <mxGeometry x="2438.875" y="772.5" width="143.75" height="34" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-136" target="22V_tRLQmmyR--t17WRu-140" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-136" value="获取10帧数据的匀速运动模型下下获得平滑姿态" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2438.875" y="751.5" width="143.75" height="34" as="geometry" />
+          <mxGeometry x="2438.875" y="825.5" width="143.75" height="34" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-138" target="22V_tRLQmmyR--t17WRu-144" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-138" value="传入轨迹平滑器" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2603.75" y="732.5" width="120" height="35" as="geometry" />
+          <mxGeometry x="2603.75" y="806.5" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-140" target="22V_tRLQmmyR--t17WRu-142" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-140" value="当前姿态放入轨迹平滑器" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2438.875" y="801.5" width="143.75" height="30" as="geometry" />
+          <mxGeometry x="2438.875" y="875.5" width="143.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-142" target="22V_tRLQmmyR--t17WRu-146" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-142" value="发布平滑姿态/状态" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2438.875" y="861.5" width="143.75" height="30" as="geometry" />
+          <mxGeometry x="2438.875" y="935.5" width="143.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-144" target="22V_tRLQmmyR--t17WRu-146" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-144" value="发布当前姿态/状态" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2591.875" y="861.5" width="143.75" height="30" as="geometry" />
+          <mxGeometry x="2591.875" y="935.5" width="143.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="22V_tRLQmmyR--t17WRu-146" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2510" y="331.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2384" y="966.5" />
-              <mxPoint x="2384" y="331.5" />
+              <mxPoint x="2384" y="1040" />
+              <mxPoint x="2384" y="332" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-146" value="&lt;div&gt;记录当前车体姿态到文件（600ms）&lt;/div&gt;&lt;div&gt;定位模式/定位状态/x/y/t&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2400.75" y="951.5" width="220" height="30" as="geometry" />
+          <mxGeometry x="2400.75" y="1025.5" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;" parent="1" source="22V_tRLQmmyR--t17WRu-148" target="22V_tRLQmmyR--t17WRu-150" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -3780,17 +3775,23 @@
         <mxCell id="IZZKqKrySqorBpsH3vY4-3" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;实时定位线程&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3457.5" y="180" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5_kY-rh6Xjgb40ULpb82-1" value="构造tcp指令" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeColor=light-dark(#FF66FF,#EDEDED);" vertex="1" parent="1">
+        <mxCell id="5_kY-rh6Xjgb40ULpb82-1" value="构造tcp指令" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;labelBorderColor=none;strokeColor=light-dark(#FF66FF,#EDEDED);" parent="1" vertex="1">
           <mxGeometry x="590.4100000000001" y="1950" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BMqWjx4VBVFvDmHwlMfP-3" value="绝对定位单独做成一个组件！" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BMqWjx4VBVFvDmHwlMfP-3" value="绝对定位单独做成一个组件！" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1719.32" y="794" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BMqWjx4VBVFvDmHwlMfP-4" value="需要增加全局绝对定位和局部绝对定位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BMqWjx4VBVFvDmHwlMfP-4" value="需要增加全局绝对定位和局部绝对定位" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1722.5" y="906.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SmGhcGj1UBcFPhhWW_Xf-1" value="从哪里拿到的结果？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SmGhcGj1UBcFPhhWW_Xf-1" value="从哪里拿到的结果？" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2880" y="457" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_lndG8AzcG4rjFOxGJL5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_lndG8AzcG4rjFOxGJL5-1" target="22V_tRLQmmyR--t17WRu-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_lndG8AzcG4rjFOxGJL5-1" value="获取当前定位算法模式&lt;div&gt;对应的算法对象&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2420.25" y="441.5" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
