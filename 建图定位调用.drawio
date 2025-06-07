@@ -3055,7 +3055,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TNz6VGbpKtbN26wCR5Xc" name="总流程图">
-    <mxGraphModel dx="3240" dy="3829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1890" dy="2233" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3859,10 +3859,113 @@
           <mxGeometry x="3880.03" y="1846" width="209.97" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p_M6CMPGNV8le28VgZnJ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3333FF;dashed=1;dashPattern=8 8;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="4480" y="220" width="971.37" height="1748.8" as="geometry" />
+          <mxGeometry x="4480" y="220" width="1080" height="1748.8" as="geometry" />
         </mxCell>
         <mxCell id="p_M6CMPGNV8le28VgZnJ-2" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;QR实时定位线程&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4790" y="170" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-2" target="lS7U7CE3M5qR75CNaczQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-2" value="定位管理器" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="4510" y="284" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-4" target="lS7U7CE3M5qR75CNaczQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-4" value="开启实时定位线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4640" y="299" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-8" target="lS7U7CE3M5qR75CNaczQ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-6" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="lS7U7CE3M5qR75CNaczQ-5">
+          <mxGeometry x="-0.3012" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-8" target="lS7U7CE3M5qR75CNaczQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-8" value="&lt;div&gt;姿态是否出现不健康状态？&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;定位状态为RealTimeLocation&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4637.5" y="394" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-9" value="定位状态修改为RealTimeLocationError" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4627.5" y="524" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-12" target="lS7U7CE3M5qR75CNaczQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-11" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="lS7U7CE3M5qR75CNaczQ-10">
+          <mxGeometry x="-0.2868" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-12" value="是否收到最新二维码信息？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4917" y="514" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-15" target="lS7U7CE3M5qR75CNaczQ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-14" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="lS7U7CE3M5qR75CNaczQ-13">
+          <mxGeometry x="0.0526" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-15" value="二维码地图中是否&lt;div&gt;能找到相同Id?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4939" y="644" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-17" target="lS7U7CE3M5qR75CNaczQ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-17" value="计算出车体姿态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4948" y="764" width="172.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-19" target="lS7U7CE3M5qR75CNaczQ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-19" value="更新姿态推测器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4948" y="834" width="172.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-21" target="lS7U7CE3M5qR75CNaczQ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5034" y="967" />
+              <mxPoint x="5490" y="967" />
+              <mxPoint x="5490" y="374" />
+              <mxPoint x="4755" y="374" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-21" value="重置不健康历程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4948" y="907" width="172.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-23" target="lS7U7CE3M5qR75CNaczQ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-23" value="刷新全部里程计数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5170" y="764" width="172.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.55;entryY=-0.065;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-15" target="lS7U7CE3M5qR75CNaczQ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-25" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="lS7U7CE3M5qR75CNaczQ-24">
+          <mxGeometry x="-0.3326" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-27" target="lS7U7CE3M5qR75CNaczQ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5257" y="924" />
+              <mxPoint x="5490" y="924" />
+              <mxPoint x="5490" y="374" />
+              <mxPoint x="4755" y="374" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-27" value="累计不健康历程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5172" y="834" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
