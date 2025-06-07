@@ -3538,6 +3538,9 @@
         <mxCell id="22V_tRLQmmyR--t17WRu-169" value="姿态推测器刷新至最新雷达时间戳" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3615.03" y="1055.13" width="230" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="22V_tRLQmmyR--t17WRu-171" target="fooOsg3tulbtLc7xrjIA-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-171" value="预测姿态 = 姿态推测器反馈结果&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3615.03" y="1127.13" width="230" height="40" as="geometry" />
         </mxCell>
@@ -3835,17 +3838,23 @@
         <mxCell id="fooOsg3tulbtLc7xrjIA-20" value="累计姿态非健康的里程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3890.03" y="1087.57" width="180.03" height="32.87" as="geometry" />
         </mxCell>
-        <mxCell id="fooOsg3tulbtLc7xrjIA-26" value="&amp;nbsp;ceres scan match" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fooOsg3tulbtLc7xrjIA-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fooOsg3tulbtLc7xrjIA-26" target="fooOsg3tulbtLc7xrjIA-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-26" value="&amp;nbsp;ceres scan match" style="swimlane;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="3607.55" y="1220" width="244.97" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="fooOsg3tulbtLc7xrjIA-28" value="输入：点云，预测姿态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fooOsg3tulbtLc7xrjIA-26">
+        <mxCell id="fooOsg3tulbtLc7xrjIA-28" value="输入：点云，预测姿态" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="fooOsg3tulbtLc7xrjIA-26">
           <mxGeometry x="-1.8118839761882555e-13" y="24" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fooOsg3tulbtLc7xrjIA-31" value="输出： 观测姿态，姿态置信度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fooOsg3tulbtLc7xrjIA-26">
+        <mxCell id="fooOsg3tulbtLc7xrjIA-31" value="输出： 观测姿态，姿态置信度" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="fooOsg3tulbtLc7xrjIA-26">
           <mxGeometry x="-1.8118839761882555e-13" y="44" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fooOsg3tulbtLc7xrjIA-32" value="1.构建一般栅格残差&lt;div&gt;2.构建反光贴栅格残差&lt;/div&gt;&lt;div&gt;3.构建线特征栅格残差&lt;/div&gt;&lt;div&gt;4.构建手动高亮区域残差&lt;/div&gt;&lt;div&gt;5.构建旋转残差&lt;/div&gt;&lt;div&gt;6.构建平移残差&lt;/div&gt;&lt;div&gt;7.ceres 求解 获取姿态&lt;/div&gt;&lt;div&gt;8.计算与栅格的匹配度(姿态置信度)&lt;/div&gt;&lt;div&gt;9.获取观测姿态&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fooOsg3tulbtLc7xrjIA-26">
+        <mxCell id="fooOsg3tulbtLc7xrjIA-32" value="1.构建一般栅格残差&lt;div&gt;2.构建反光贴栅格残差&lt;/div&gt;&lt;div&gt;3.构建线特征栅格残差&lt;/div&gt;&lt;div&gt;4.构建手动高亮区域残差&lt;/div&gt;&lt;div&gt;5.构建旋转残差&lt;/div&gt;&lt;div&gt;6.构建平移残差&lt;/div&gt;&lt;div&gt;7.ceres 求解 获取姿态&lt;/div&gt;&lt;div&gt;8.计算与栅格的匹配度(姿态置信度)&lt;/div&gt;&lt;div&gt;9.获取观测姿态&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="fooOsg3tulbtLc7xrjIA-26">
           <mxGeometry x="9.450000000000003" y="74" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-34" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;获取观测结果&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="1490" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
