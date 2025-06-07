@@ -3055,7 +3055,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TNz6VGbpKtbN26wCR5Xc" name="第 7 页">
-    <mxGraphModel dx="687" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="1340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3520,6 +3520,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22V_tRLQmmyR--t17WRu-165" target="fooOsg3tulbtLc7xrjIA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-165" value="是否获取到最新的雷达数据？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3667.53" y="857.13" width="205" height="70" as="geometry" />
         </mxCell>
@@ -3591,10 +3594,11 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3505" y="297" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="3950" y="1294" />
               <mxPoint x="3990" y="1294" />
               <mxPoint x="3990" y="1220" />
-              <mxPoint x="4100" y="1220" />
-              <mxPoint x="4100" y="297" />
+              <mxPoint x="4200" y="1220" />
+              <mxPoint x="4200" y="297" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3792,21 +3796,47 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fooOsg3tulbtLc7xrjIA-6" value="当前姿态=姿态推测器反馈结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3890.03" y="772.5" width="180" height="30" as="geometry" />
+          <mxGeometry x="3890.03" y="759.5" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fooOsg3tulbtLc7xrjIA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="fooOsg3tulbtLc7xrjIA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fooOsg3tulbtLc7xrjIA-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3980.0300000000007" y="858.4999999999998" as="sourcePoint" />
             <mxPoint x="3510" y="297" as="targetPoint" />
             <Array as="points">
               <mxPoint x="3980" y="879" />
-              <mxPoint x="4100" y="879" />
-              <mxPoint x="4100" y="297" />
+              <mxPoint x="4200" y="879" />
+              <mxPoint x="4200" y="297" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="fooOsg3tulbtLc7xrjIA-8" value="清空雷达数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3890.03" y="831.5" width="180" height="30" as="geometry" />
+          <mxGeometry x="3890.03" y="818.5" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fooOsg3tulbtLc7xrjIA-14" target="fooOsg3tulbtLc7xrjIA-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-14" value="姿态推测器刷新全部里程计数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3890" y="976.76" width="180.03" height="32.87" as="geometry" />
+        </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fooOsg3tulbtLc7xrjIA-17" target="fooOsg3tulbtLc7xrjIA-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-17" value="当前姿态=姿态推测器反馈结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3890.03" y="1031.13" width="180.03" height="32.87" as="geometry" />
+        </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fooOsg3tulbtLc7xrjIA-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3510" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3980" y="1140" />
+              <mxPoint x="4200" y="1140" />
+              <mxPoint x="4200" y="300" />
+              <mxPoint x="3510" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-20" value="累计姿态非健康的里程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3890.03" y="1087.57" width="180.03" height="32.87" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
