@@ -3836,13 +3836,16 @@
           <mxGeometry x="3890.03" y="1087.57" width="180.03" height="32.87" as="geometry" />
         </mxCell>
         <mxCell id="fooOsg3tulbtLc7xrjIA-26" value="&amp;nbsp;ceres scan match" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3607.55" y="1220" width="244.97" height="200" as="geometry" />
+          <mxGeometry x="3607.55" y="1220" width="244.97" height="220" as="geometry" />
         </mxCell>
         <mxCell id="fooOsg3tulbtLc7xrjIA-28" value="输入：点云，预测姿态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fooOsg3tulbtLc7xrjIA-26">
-          <mxGeometry x="42.44999999999982" y="24" width="140" height="30" as="geometry" />
+          <mxGeometry x="-1.8118839761882555e-13" y="24" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fooOsg3tulbtLc7xrjIA-31" value="输出： 观测姿态，姿态置信度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fooOsg3tulbtLc7xrjIA-26">
-          <mxGeometry x="27.449999999999818" y="44" width="180" height="30" as="geometry" />
+          <mxGeometry x="-1.8118839761882555e-13" y="44" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-32" value="1.构建一般栅格残差&lt;div&gt;2.构建反光贴栅格残差&lt;/div&gt;&lt;div&gt;3.构建线特征栅格残差&lt;/div&gt;&lt;div&gt;4.构建手动高亮区域残差&lt;/div&gt;&lt;div&gt;5.构建旋转残差&lt;/div&gt;&lt;div&gt;6.构建平移残差&lt;/div&gt;&lt;div&gt;7.ceres 求解 获取姿态&lt;/div&gt;&lt;div&gt;8.计算与栅格的匹配度(姿态置信度)&lt;/div&gt;&lt;div&gt;9.获取观测姿态&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fooOsg3tulbtLc7xrjIA-26">
+          <mxGeometry x="9.450000000000003" y="74" width="210" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
