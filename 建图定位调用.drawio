@@ -3548,7 +3548,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-173" value="获取雷达观测优化结果" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3620" y="1626" width="240" height="30" as="geometry" />
+          <mxGeometry x="3656.31" y="1930" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-174" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="22V_tRLQmmyR--t17WRu-178" target="22V_tRLQmmyR--t17WRu-180" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -3567,28 +3567,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-178" value="观测结果是否出现跳变？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3655" y="1686" width="170" height="50" as="geometry" />
+          <mxGeometry x="3691.31" y="1990" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-179" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="22V_tRLQmmyR--t17WRu-180" target="22V_tRLQmmyR--t17WRu-182" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-180" value="输出预测结果" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3680" y="1776" width="120" height="30" as="geometry" />
+          <mxGeometry x="3716.31" y="2080" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-182" value="累计姿态非健康的里程" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3666.25" y="1837" width="147.5" height="29" as="geometry" />
+          <mxGeometry x="3702.56" y="2141" width="147.5" height="29" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-183" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="22V_tRLQmmyR--t17WRu-184" target="22V_tRLQmmyR--t17WRu-186" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-184" value="输出观测结果" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3900" y="1776" width="120" height="30" as="geometry" />
+          <mxGeometry x="3936.31" y="2080" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-185" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="22V_tRLQmmyR--t17WRu-186" target="22V_tRLQmmyR--t17WRu-188" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-186" value="刷新位姿健康监控器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3900" y="1831.5" width="120" height="34.5" as="geometry" />
+          <mxGeometry x="3936.31" y="2135.5" width="120" height="34.5" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="22V_tRLQmmyR--t17WRu-188" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -3603,7 +3603,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-188" value="更新姿态推测器初始姿态" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3886.25" y="1897" width="147.5" height="29" as="geometry" />
+          <mxGeometry x="3922.56" y="2201" width="147.5" height="29" as="geometry" />
         </mxCell>
         <mxCell id="fooOsg3tulbtLc7xrjIA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22V_tRLQmmyR--t17WRu-190" target="fooOsg3tulbtLc7xrjIA-6">
           <mxGeometry relative="1" as="geometry" />
@@ -3853,8 +3853,29 @@
         <mxCell id="fooOsg3tulbtLc7xrjIA-32" value="1.构建一般栅格残差&lt;div&gt;2.构建反光贴栅格残差&lt;/div&gt;&lt;div&gt;3.构建线特征栅格残差&lt;/div&gt;&lt;div&gt;4.构建手动高亮区域残差&lt;/div&gt;&lt;div&gt;5.构建旋转残差&lt;/div&gt;&lt;div&gt;6.构建平移残差&lt;/div&gt;&lt;div&gt;7.ceres 求解 获取姿态&lt;/div&gt;&lt;div&gt;8.计算与栅格的匹配度(姿态置信度)&lt;/div&gt;&lt;div&gt;9.获取观测姿态&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="fooOsg3tulbtLc7xrjIA-26">
           <mxGeometry x="9.450000000000003" y="74" width="210" height="140" as="geometry" />
         </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fooOsg3tulbtLc7xrjIA-34" target="fooOsg3tulbtLc7xrjIA-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fooOsg3tulbtLc7xrjIA-34" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;获取观测结果&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;resizable=1;" vertex="1" parent="1">
           <mxGeometry x="3610" y="1490" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-36" value="观测结果是否出现跳变？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3636.31" y="2244" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fooOsg3tulbtLc7xrjIA-37" target="fooOsg3tulbtLc7xrjIA-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-37" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;观测结果与预测姿态差距是否超出阈值？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="3600" y="1566" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fooOsg3tulbtLc7xrjIA-40" target="fooOsg3tulbtLc7xrjIA-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-40" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;当前姿态=预测结果&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="1690" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fooOsg3tulbtLc7xrjIA-42" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;累计姿态非健康的里程&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="1770" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
