@@ -3055,7 +3055,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TNz6VGbpKtbN26wCR5Xc" name="总流程图">
-    <mxGraphModel dx="527" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1080" dy="1276" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3933,8 +3933,14 @@
         <mxCell id="lS7U7CE3M5qR75CNaczQ-64" value="是否获取最新的二维码数据？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4920" y="590.6299999999999" width="205" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-66" target="lS7U7CE3M5qR75CNaczQ-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lS7U7CE3M5qR75CNaczQ-66" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;定位状态 ==&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;ReLocationError&lt;/span&gt;？&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font&gt;&lt;font&gt;|| 定位状态 == &lt;/font&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;RealTimeLocationError&lt;/span&gt;&lt;font&gt;？&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4640" y="1200" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lS7U7CE3M5qR75CNaczQ-68" value="定位状态 = RealTimeLocation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4640" y="1330" width="230" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
