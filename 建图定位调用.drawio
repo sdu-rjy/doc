@@ -2107,6 +2107,9 @@
         <mxCell id="ecBQqttaKl1q4yAqrxdf-1" value="累计耗时" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="620" width="190" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="ecBQqttaKl1q4yAqrxdf-5" value="获取二维码数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="396.25" y="800" width="172.5" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
