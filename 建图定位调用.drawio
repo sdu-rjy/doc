@@ -4138,7 +4138,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fooOsg3tulbtLc7xrjIA-37" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;观测结果与预测姿态差距是否超出阈值？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;resizable=1;" parent="1" vertex="1">
-          <mxGeometry x="3600" y="1599" width="260" height="80" as="geometry" />
+          <mxGeometry x="3600" y="1721" width="260" height="51" as="geometry" />
         </mxCell>
         <mxCell id="fooOsg3tulbtLc7xrjIA-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fooOsg3tulbtLc7xrjIA-40" target="fooOsg3tulbtLc7xrjIA-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
