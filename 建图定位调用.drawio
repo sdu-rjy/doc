@@ -4222,29 +4222,23 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lS7U7CE3M5qR75CNaczQ-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lS7U7CE3M5qR75CNaczQ-66" target="lS7U7CE3M5qR75CNaczQ-73" edge="1">
+        <mxCell id="gMCYkUsy_0055aUbAZNS-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-66" target="gMCYkUsy_0055aUbAZNS-30">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="4638" y="1260" />
-              <mxPoint x="4560" y="1260" />
-              <mxPoint x="4560" y="444" />
+              <mxPoint x="4540" y="1259" />
+              <mxPoint x="4540" y="311" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lS7U7CE3M5qR75CNaczQ-76" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lS7U7CE3M5qR75CNaczQ-75" vertex="1" connectable="0">
-          <mxGeometry x="0.0688" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lS7U7CE3M5qR75CNaczQ-66" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;定位状态 ==&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;ReLocationError&lt;/span&gt;？&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font&gt;&lt;font&gt;|| 定位状态 == &lt;/font&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;locatingError&lt;/span&gt;&lt;font&gt;？&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="4637.5" y="1219" width="230" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lS7U7CE3M5qR75CNaczQ-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lS7U7CE3M5qR75CNaczQ-68" target="lS7U7CE3M5qR75CNaczQ-73" edge="1">
+        <mxCell id="gMCYkUsy_0055aUbAZNS-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-68" target="gMCYkUsy_0055aUbAZNS-30">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="4753" y="1410" />
-              <mxPoint x="4560" y="1410" />
-              <mxPoint x="4560" y="444" />
+              <mxPoint x="4753" y="1390" />
+              <mxPoint x="4540" y="1390" />
+              <mxPoint x="4540" y="311" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -4288,18 +4282,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yxw2mgyDHCVRgci0mFE--87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lS7U7CE3M5qR75CNaczQ-101" target="lS7U7CE3M5qR75CNaczQ-73" edge="1">
+        <mxCell id="gMCYkUsy_0055aUbAZNS-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-101" target="gMCYkUsy_0055aUbAZNS-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lS7U7CE3M5qR75CNaczQ-101" value="定位状态是否为locating？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="5148" y="1118" width="250" height="63.5" as="geometry" />
         </mxCell>
-        <mxCell id="Yxw2mgyDHCVRgci0mFE--81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lS7U7CE3M5qR75CNaczQ-103" target="lS7U7CE3M5qR75CNaczQ-73" edge="1">
+        <mxCell id="gMCYkUsy_0055aUbAZNS-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lS7U7CE3M5qR75CNaczQ-103" target="gMCYkUsy_0055aUbAZNS-30">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="5273" y="1410" />
-              <mxPoint x="4560" y="1410" />
-              <mxPoint x="4560" y="444" />
+              <mxPoint x="5273" y="1430" />
+              <mxPoint x="4540" y="1430" />
+              <mxPoint x="4540" y="311" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -4597,7 +4591,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yxw2mgyDHCVRgci0mFE--86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Yxw2mgyDHCVRgci0mFE--77" target="lS7U7CE3M5qR75CNaczQ-73" edge="1">
+        <mxCell id="gMCYkUsy_0055aUbAZNS-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yxw2mgyDHCVRgci0mFE--77" target="gMCYkUsy_0055aUbAZNS-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Yxw2mgyDHCVRgci0mFE--77" value="非健康累计里程 &amp;gt; 阈值？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
