@@ -5036,9 +5036,6 @@
         <mxCell id="3FFM5WFeTq9stJ5ZeAzj-78" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;姿态置信度是否高于阈值？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;startSize=23;resizable=1;" vertex="1" parent="1">
           <mxGeometry x="3600.03" y="1560" width="260" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="3FFM5WFeTq9stJ5ZeAzj-84" value="ceres scan match 置信度计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3010" y="1547" width="200" height="40" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
