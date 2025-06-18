@@ -4846,6 +4846,9 @@
         <mxCell id="3FFM5WFeTq9stJ5ZeAzj-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3FFM5WFeTq9stJ5ZeAzj-1" target="3FFM5WFeTq9stJ5ZeAzj-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="3FFM5WFeTq9stJ5ZeAzj-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3FFM5WFeTq9stJ5ZeAzj-1" target="3FFM5WFeTq9stJ5ZeAzj-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3FFM5WFeTq9stJ5ZeAzj-1" value="雷达数据是否异常？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="419.41" y="2258" width="80" height="40" as="geometry" />
         </mxCell>
@@ -4861,8 +4864,11 @@
         <mxCell id="3FFM5WFeTq9stJ5ZeAzj-10" value="分发给各个定位算法对象" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="510.4100000000001" y="2480" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3FFM5WFeTq9stJ5ZeAzj-20" value="状态置为正常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="399.41" y="2331" width="120" height="30" as="geometry" />
+        <mxCell id="3FFM5WFeTq9stJ5ZeAzj-20" value="状态=正常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="423.97" y="2331" width="70.88" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="3FFM5WFeTq9stJ5ZeAzj-24" value="状态=异常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500.40999999999997" y="2331" width="70.88" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
