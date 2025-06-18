@@ -3348,7 +3348,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TNz6VGbpKtbN26wCR5Xc" name="总流程图">
-    <mxGraphModel dx="778" dy="1604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1632" dy="2082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3432,8 +3432,8 @@
         <mxCell id="22V_tRLQmmyR--t17WRu-30" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;异常结束&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="222.5" y="2430" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="22V_tRLQmmyR--t17WRu-36" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;正常结束&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="586.66" y="2690" width="170" height="40" as="geometry" />
+        <mxCell id="22V_tRLQmmyR--t17WRu-36" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;结束&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="607.6999999999999" y="2470" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22V_tRLQmmyR--t17WRu-54" target="22V_tRLQmmyR--t17WRu-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -4868,6 +4868,9 @@
         </mxCell>
         <mxCell id="3FFM5WFeTq9stJ5ZeAzj-8" value="Imu数据是否异常？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="716" y="2249.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3FFM5WFeTq9stJ5ZeAzj-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3FFM5WFeTq9stJ5ZeAzj-10" target="22V_tRLQmmyR--t17WRu-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3FFM5WFeTq9stJ5ZeAzj-10" value="将传感器状态及数据分发给各个定位算法对象" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="497.41" y="2410" width="390.59" height="30" as="geometry" />
