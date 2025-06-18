@@ -3776,7 +3776,12 @@
           <mxGeometry x="3380" y="414.12" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gMCYkUsy_0055aUbAZNS-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22V_tRLQmmyR--t17WRu-157" target="lPslVc8QkH6-SwKshN_8-14">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3360" y="554" />
+              <mxPoint x="3360" y="215" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="22V_tRLQmmyR--t17WRu-157" value="定位状态 = locatingError" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3390" y="534.12" width="230" height="40" as="geometry" />
