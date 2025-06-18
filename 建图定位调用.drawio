@@ -3348,7 +3348,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TNz6VGbpKtbN26wCR5Xc" name="总流程图">
-    <mxGraphModel dx="864" dy="2341" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="769" dy="1599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3986,11 +3986,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3FFM5WFeTq9stJ5ZeAzj-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22V_tRLQmmyR--t17WRu-231" target="3FFM5WFeTq9stJ5ZeAzj-3">
+        <mxCell id="3FFM5WFeTq9stJ5ZeAzj-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="22V_tRLQmmyR--t17WRu-231" target="3FFM5WFeTq9stJ5ZeAzj-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="680" y="2220" />
-              <mxPoint x="560" y="2220" />
+              <mxPoint x="596" y="2220" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -4015,7 +4015,7 @@
         <mxCell id="3FFM5WFeTq9stJ5ZeAzj-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22V_tRLQmmyR--t17WRu-231" target="3FFM5WFeTq9stJ5ZeAzj-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22V_tRLQmmyR--t17WRu-231" value="注册相关话题" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="22V_tRLQmmyR--t17WRu-231" value="注册相关话题&lt;div&gt;初始化全部传感器状态&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="590.4100000000001" y="2151" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IZZKqKrySqorBpsH3vY4-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;重定位线程&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -4843,28 +4843,26 @@
         <mxCell id="gMCYkUsy_0055aUbAZNS-85" value="初始化定位状态" style="whiteSpace=wrap;html=1;rounded=0;flipV=0;" vertex="1" parent="1">
           <mxGeometry x="5893.53" y="-43" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3FFM5WFeTq9stJ5ZeAzj-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3FFM5WFeTq9stJ5ZeAzj-1" target="3FFM5WFeTq9stJ5ZeAzj-10">
+        <mxCell id="3FFM5WFeTq9stJ5ZeAzj-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3FFM5WFeTq9stJ5ZeAzj-1" target="3FFM5WFeTq9stJ5ZeAzj-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3FFM5WFeTq9stJ5ZeAzj-12" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3FFM5WFeTq9stJ5ZeAzj-11">
-          <mxGeometry x="-0.4434" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="3FFM5WFeTq9stJ5ZeAzj-1" value="雷达数据是否异常？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420.4100000000001" y="2258" width="80" height="80" as="geometry" />
+          <mxGeometry x="419.41" y="2258" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3FFM5WFeTq9stJ5ZeAzj-3" value="里程计数据是否异常？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520.4100000000001" y="2258" width="80" height="80" as="geometry" />
+          <mxGeometry x="555" y="2253" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3FFM5WFeTq9stJ5ZeAzj-5" value="相机数据是否异常？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="826.0000000000001" y="2251" width="80" height="80" as="geometry" />
+          <mxGeometry x="825" y="2254.5" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3FFM5WFeTq9stJ5ZeAzj-8" value="Imu数据是否异常？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="640.4100000000001" y="2251" width="80" height="80" as="geometry" />
+          <mxGeometry x="690" y="2249.5" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3FFM5WFeTq9stJ5ZeAzj-10" value="分发给各个定位算法对象" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="415.62" y="2430" width="89.59" height="60" as="geometry" />
+          <mxGeometry x="510.4100000000001" y="2480" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3FFM5WFeTq9stJ5ZeAzj-20" value="状态置为正常" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="399.41" y="2331" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
