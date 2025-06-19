@@ -5335,18 +5335,8 @@
             <mxPoint x="934.6700000000001" y="583.05" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VUe7rMQyBSqAYSciG-ds-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUe7rMQyBSqAYSciG-ds-69" target="VUe7rMQyBSqAYSciG-ds-71">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1260" y="736" />
-              <mxPoint x="1260" y="611" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VUe7rMQyBSqAYSciG-ds-68" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VUe7rMQyBSqAYSciG-ds-67">
-          <mxGeometry x="-0.7631" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="y57LuVHC5YOFBbq1weXJ-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VUe7rMQyBSqAYSciG-ds-69" target="y57LuVHC5YOFBbq1weXJ-58">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VUe7rMQyBSqAYSciG-ds-69" value="是否利用里程计和雷达融合定位？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="850" y="712" width="165" height="50" as="geometry" />
@@ -5598,6 +5588,24 @@
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-56" value="上报错误" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-222.88" y="1437.57" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y57LuVHC5YOFBbq1weXJ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y57LuVHC5YOFBbq1weXJ-58" target="y57LuVHC5YOFBbq1weXJ-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y57LuVHC5YOFBbq1weXJ-58" value="累计不健康里程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="774.19" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y57LuVHC5YOFBbq1weXJ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y57LuVHC5YOFBbq1weXJ-59" target="VUe7rMQyBSqAYSciG-ds-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1210" y="880" />
+              <mxPoint x="1330" y="880" />
+              <mxPoint x="1330" y="611" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y57LuVHC5YOFBbq1weXJ-59" value="当前姿态=单个传感器反馈结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="829.69" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
