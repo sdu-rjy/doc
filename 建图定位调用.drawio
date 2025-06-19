@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.5" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.5" pages="9">
   <diagram name="定位调用逻辑" id="DZArnhB4XrpR0fae_HU6">
     <mxGraphModel dx="1621" dy="2095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5085,7 +5085,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="estpv4P4t_5Z2LOcRPe-" name="scan match">
-    <mxGraphModel dx="8368" dy="3837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5606,6 +5606,352 @@
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-59" value="当前姿态=单个传感器反馈结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="699.69" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="z8leCgOMykMpxDITYHwc" name="QR">
+    <mxGraphModel dx="3177" dy="1343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-1" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;QR实时定位线程&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1141" y="323" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-5" target="sch2DMCoH9FJHb-b8Ilf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-3" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sch2DMCoH9FJHb-b8Ilf-2">
+          <mxGeometry x="4755" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-5" target="sch2DMCoH9FJHb-b8Ilf-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-5" value="是否获取最新的二维码数据？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1001" y="653" width="205" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-7" target="sch2DMCoH9FJHb-b8Ilf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-7" value="获取二维码Id" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1008.5" y="754" width="190" height="47.87" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-11" target="sch2DMCoH9FJHb-b8Ilf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-9" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sch2DMCoH9FJHb-b8Ilf-8">
+          <mxGeometry x="-0.1169" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-11" target="sch2DMCoH9FJHb-b8Ilf-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-11" value="地图中是否存在对应的Id?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1008.5" y="829" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-13" target="sch2DMCoH9FJHb-b8Ilf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-13" value="获取地图对应id的二维码坐标" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1008.5" y="933" width="190" height="52.87" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-15" target="sch2DMCoH9FJHb-b8Ilf-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-15" value="计算当前车体姿态为观测结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1008.5" y="1026" width="190" height="48.24" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-17" target="sch2DMCoH9FJHb-b8Ilf-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-17" value="姿态推测器初始姿态&lt;div&gt;设置为观测结果&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1008.5" y="1117" width="190" height="48.24" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-19" target="sch2DMCoH9FJHb-b8Ilf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-19" value="当前姿态=观测结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1008.5" y="1298" width="190" height="48.24" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-23" target="sch2DMCoH9FJHb-b8Ilf-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-21" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sch2DMCoH9FJHb-b8Ilf-20">
+          <mxGeometry x="-0.4879" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-23" target="sch2DMCoH9FJHb-b8Ilf-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="891" y="1412" />
+              <mxPoint x="891" y="409" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-23" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;定位状态 ==&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;ReLocationError&lt;/span&gt;？&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font&gt;&lt;font&gt;|| 定位状态 == &lt;/font&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;locatingError&lt;/span&gt;&lt;font&gt;？&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="988.5" y="1372" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-25" target="sch2DMCoH9FJHb-b8Ilf-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1104" y="1543" />
+              <mxPoint x="891" y="1543" />
+              <mxPoint x="891" y="409" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-25" value="定位状态 = locating" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="988.5" y="1483" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-27" target="sch2DMCoH9FJHb-b8Ilf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-27" value="获取二维码数据容器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1008.5" y="581" width="190" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-29" target="sch2DMCoH9FJHb-b8Ilf-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-29" value="姿态推测器刷新全部里程计数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1271" y="750.13" width="190" height="47.87" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-31" target="sch2DMCoH9FJHb-b8Ilf-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-31" value="当前姿态=姿态推测器反馈结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1271" y="824.06" width="190" height="47.87" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-34" target="sch2DMCoH9FJHb-b8Ilf-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-33" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sch2DMCoH9FJHb-b8Ilf-32">
+          <mxGeometry x="-0.703" y="6" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-34" value="&lt;div&gt;姿态监控状态 != 健康？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="940" width="250" height="63.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-38" target="sch2DMCoH9FJHb-b8Ilf-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-36" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sch2DMCoH9FJHb-b8Ilf-35">
+          <mxGeometry x="-0.1934" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-38" target="sch2DMCoH9FJHb-b8Ilf-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-38" value="定位状态是否为locating？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1499" y="1271" width="250" height="63.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-40" target="sch2DMCoH9FJHb-b8Ilf-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1624" y="1583" />
+              <mxPoint x="891" y="1583" />
+              <mxPoint x="891" y="409" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-40" value="定位状态 = locatingError" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1509" y="1420" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-42" target="sch2DMCoH9FJHb-b8Ilf-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-42" value="累计姿态非健康的里程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1529" y="1024.63" width="190" height="39.94" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-44" target="sch2DMCoH9FJHb-b8Ilf-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-44" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;位姿健康监控器不健康里程设置为0&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="998.5150000000003" y="1211" width="209.97" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-48" target="sch2DMCoH9FJHb-b8Ilf-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-46" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sch2DMCoH9FJHb-b8Ilf-45">
+          <mxGeometry x="-0.2087" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-48" target="sch2DMCoH9FJHb-b8Ilf-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-48" value="非健康累计里程 &amp;gt; 阈值？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1499" y="1157.5" width="250" height="63.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-50" target="sch2DMCoH9FJHb-b8Ilf-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-50" value="定位管理器" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="20" width="32" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-51" value="开启实时定位线程" style="whiteSpace=wrap;html=1;rounded=0;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="989" y="335" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-51" target="sch2DMCoH9FJHb-b8Ilf-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1104.5" y="364" as="sourcePoint" />
+            <mxPoint x="1106.67" y="381.04999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-57" target="sch2DMCoH9FJHb-b8Ilf-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1187" y="533" />
+              <mxPoint x="1351" y="533" />
+              <mxPoint x="1351" y="409" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-54" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sch2DMCoH9FJHb-b8Ilf-53">
+          <mxGeometry x="-0.7631" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-57" target="sch2DMCoH9FJHb-b8Ilf-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-56" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sch2DMCoH9FJHb-b8Ilf-55">
+          <mxGeometry x="-0.4835" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-57" value="姿态推测器验证？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="513" width="165" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-59" target="sch2DMCoH9FJHb-b8Ilf-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-59" value="等待20ms" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1054.5100000000002" y="396.88" width="99.97" height="24.12" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-60" value="实例化姿态推测器" style="whiteSpace=wrap;html=1;rounded=0;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="989" y="216" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-60" target="sch2DMCoH9FJHb-b8Ilf-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1104.000000000001" y="244.00000000000023" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-63" target="sch2DMCoH9FJHb-b8Ilf-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-63" value="加载参数" style="whiteSpace=wrap;html=1;rounded=0;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="989" y="95" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-65" target="sch2DMCoH9FJHb-b8Ilf-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-65" value="实例化姿态监控器" style="whiteSpace=wrap;html=1;rounded=0;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="989" y="275" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-67" target="sch2DMCoH9FJHb-b8Ilf-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-67" value="实例化QR定位对象" style="whiteSpace=wrap;html=1;rounded=0;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="989" y="35" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-69" target="sch2DMCoH9FJHb-b8Ilf-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-69" value="初始化定位状态，传感器状态" style="whiteSpace=wrap;html=1;rounded=0;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="989.5" y="156" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-72" target="sch2DMCoH9FJHb-b8Ilf-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-71" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sch2DMCoH9FJHb-b8Ilf-70">
+          <mxGeometry x="-0.0851" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-72" value="传感器数据是否正常？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="437.55999999999995" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-74" target="sch2DMCoH9FJHb-b8Ilf-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-74" value="定位状态 = SensorError" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="911" y="520.5" width="101.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.501;entryY=0.069;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sch2DMCoH9FJHb-b8Ilf-72" target="sch2DMCoH9FJHb-b8Ilf-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sch2DMCoH9FJHb-b8Ilf-76" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sch2DMCoH9FJHb-b8Ilf-75">
+          <mxGeometry x="-0.3956" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W06W17ejZDbTp1v6tQ4D-5" target="W06W17ejZDbTp1v6tQ4D-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W06W17ejZDbTp1v6tQ4D-5" target="W06W17ejZDbTp1v6tQ4D-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W06W17ejZDbTp1v6tQ4D-5" target="W06W17ejZDbTp1v6tQ4D-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W06W17ejZDbTp1v6tQ4D-5" target="W06W17ejZDbTp1v6tQ4D-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-5" value="检查二维码相机，里程计状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="318" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-7" value="二维码相机正常&lt;div&gt;里程计正常&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-87" y="417.56000000000006" width="177.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W06W17ejZDbTp1v6tQ4D-9" target="W06W17ejZDbTp1v6tQ4D-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-9" value="二维码相机正常&lt;div&gt;里程计异常&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="108" y="417.56000000000006" width="177.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W06W17ejZDbTp1v6tQ4D-11" target="W06W17ejZDbTp1v6tQ4D-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-11" value="二维码相机异常&lt;div&gt;里程计正常&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="318" y="417.56000000000006" width="177.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W06W17ejZDbTp1v6tQ4D-13" target="W06W17ejZDbTp1v6tQ4D-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-13" value="二维码相机异常&lt;div&gt;里程计异常&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="578.69" y="417.56000000000006" width="177.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W06W17ejZDbTp1v6tQ4D-7" target="W06W17ejZDbTp1v6tQ4D-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1.75" y="700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="W06W17ejZDbTp1v6tQ4D-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-373.3800000000001" y="713.06" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-26" value="里程计和二维码相机融合定位" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-87" y="593.0600000000001" width="176.62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="W06W17ejZDbTp1v6tQ4D-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-177.8800000000001" y="713.06" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="W06W17ejZDbTp1v6tQ4D-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25.11999999999989" y="713.06" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W06W17ejZDbTp1v6tQ4D-47" value="上报错误" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="136.7500000000001" y="593.0599999999998" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
