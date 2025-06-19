@@ -5611,7 +5611,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="z8leCgOMykMpxDITYHwc" name="QR">
-    <mxGraphModel dx="3177" dy="1343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2350" dy="1343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5904,32 +5904,32 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W06W17ejZDbTp1v6tQ4D-5" value="检查二维码相机，里程计状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="318" width="180" height="40" as="geometry" />
+          <mxGeometry x="317" y="390" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W06W17ejZDbTp1v6tQ4D-7" value="二维码相机正常&lt;div&gt;里程计正常&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-87" y="417.56000000000006" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="20" y="489.56000000000006" width="177.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="W06W17ejZDbTp1v6tQ4D-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W06W17ejZDbTp1v6tQ4D-9" target="W06W17ejZDbTp1v6tQ4D-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W06W17ejZDbTp1v6tQ4D-9" value="二维码相机正常&lt;div&gt;里程计异常&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="108" y="417.56000000000006" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="215" y="489.56000000000006" width="177.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="W06W17ejZDbTp1v6tQ4D-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W06W17ejZDbTp1v6tQ4D-11" target="W06W17ejZDbTp1v6tQ4D-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W06W17ejZDbTp1v6tQ4D-11" value="二维码相机异常&lt;div&gt;里程计正常&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="318" y="417.56000000000006" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="425" y="489.56000000000006" width="177.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="W06W17ejZDbTp1v6tQ4D-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W06W17ejZDbTp1v6tQ4D-13" target="W06W17ejZDbTp1v6tQ4D-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W06W17ejZDbTp1v6tQ4D-13" value="二维码相机异常&lt;div&gt;里程计异常&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="578.69" y="417.56000000000006" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="685.69" y="489.56000000000006" width="177.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="W06W17ejZDbTp1v6tQ4D-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W06W17ejZDbTp1v6tQ4D-7" target="W06W17ejZDbTp1v6tQ4D-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1.75" y="700" as="sourcePoint" />
+            <mxPoint x="108.75" y="772" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W06W17ejZDbTp1v6tQ4D-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="W06W17ejZDbTp1v6tQ4D-15">
@@ -5938,7 +5938,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="W06W17ejZDbTp1v6tQ4D-26" value="里程计和二维码相机融合定位" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-87" y="593.0600000000001" width="176.62" height="40" as="geometry" />
+          <mxGeometry x="20" y="665.0600000000001" width="176.62" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W06W17ejZDbTp1v6tQ4D-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="W06W17ejZDbTp1v6tQ4D-16">
           <mxGeometry relative="1" as="geometry">
@@ -5951,7 +5951,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="W06W17ejZDbTp1v6tQ4D-47" value="上报错误" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="136.7500000000001" y="593.0599999999998" width="120" height="40" as="geometry" />
+          <mxGeometry x="453.7500000000001" y="665.0599999999998" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
