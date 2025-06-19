@@ -5085,7 +5085,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="estpv4P4t_5Z2LOcRPe-" name="第 8 页">
-    <mxGraphModel dx="3534" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4128" dy="1414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5348,7 +5348,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VUe7rMQyBSqAYSciG-ds-69" value="姿态推测器验证？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VUe7rMQyBSqAYSciG-ds-69" value="是否利用里程计和雷达融合定位？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="850" y="712" width="165" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VUe7rMQyBSqAYSciG-ds-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUe7rMQyBSqAYSciG-ds-71" target="VUe7rMQyBSqAYSciG-ds-88">
@@ -5455,13 +5455,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-5" value="检查雷达，里程计状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="8.409999999999968" y="913.2" width="180" height="40" as="geometry" />
+          <mxGeometry x="-81.00000000000003" y="916.12" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="y57LuVHC5YOFBbq1weXJ-6" target="y57LuVHC5YOFBbq1weXJ-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-6" value="雷达正常&lt;div&gt;里程计正常&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="1023.2" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="-558" y="1023.2" width="177.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="y57LuVHC5YOFBbq1weXJ-8" target="y57LuVHC5YOFBbq1weXJ-31">
           <mxGeometry relative="1" as="geometry" />
@@ -5485,14 +5485,14 @@
           <mxGeometry x="492.44000000000005" y="1437.57" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-14" value="按照雷达扫描匹配运行" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-470" y="1437.57" width="130.75" height="40" as="geometry" />
+          <mxGeometry x="-626.76" y="1437.57" width="130.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-15" value="按照轮式里程计运行" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-246" y="1443.57" width="120" height="40" as="geometry" />
+          <mxGeometry x="-425.88" y="1437.57" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="y57LuVHC5YOFBbq1weXJ-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-800" y="1237.57" as="targetPoint" />
+            <mxPoint x="-748" y="1237.57" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y57LuVHC5YOFBbq1weXJ-17" target="y57LuVHC5YOFBbq1weXJ-21">
@@ -5505,22 +5505,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-17" value="&lt;div&gt;退化异常检查&lt;/div&gt;打滑异常检查" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-586.62" y="1137.57" width="130.75" height="50" as="geometry" />
+          <mxGeometry x="-534.62" y="1137.57" width="130.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="y57LuVHC5YOFBbq1weXJ-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="y57LuVHC5YOFBbq1weXJ-20" target="y57LuVHC5YOFBbq1weXJ-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-20" value="无退化&lt;div&gt;无打滑&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-890" y="1238.7" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="-838" y="1238.7" width="177.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y57LuVHC5YOFBbq1weXJ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="y57LuVHC5YOFBbq1weXJ-21" target="y57LuVHC5YOFBbq1weXJ-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-21" value="无退化&lt;div&gt;有打滑&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-702.13" y="1238.7" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="-650.13" y="1238.7" width="177.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-22" value="里程计和雷达融合定位" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="1443.57" width="130.75" height="40" as="geometry" />
+          <mxGeometry x="-814.62" y="1437.57" width="130.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y57LuVHC5YOFBbq1weXJ-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="y57LuVHC5YOFBbq1weXJ-24" target="y57LuVHC5YOFBbq1weXJ-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-24" value="有退化&lt;div&gt;无打滑&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-506.63" y="1238.7" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="-454.63" y="1238.7" width="177.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y57LuVHC5YOFBbq1weXJ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y57LuVHC5YOFBbq1weXJ-25" target="y57LuVHC5YOFBbq1weXJ-56">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-25" value="有退化&lt;div&gt;有打滑&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-303.63" y="1238.7" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="-251.63" y="1238.7" width="177.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y57LuVHC5YOFBbq1weXJ-31" target="y57LuVHC5YOFBbq1weXJ-33">
           <mxGeometry relative="1" as="geometry" />
@@ -5583,6 +5595,9 @@
         </mxCell>
         <mxCell id="y57LuVHC5YOFBbq1weXJ-48" value="按照雷达扫描匹配运行" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-64" y="1437.57" width="144.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y57LuVHC5YOFBbq1weXJ-56" value="上报错误" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-222.88" y="1437.57" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
