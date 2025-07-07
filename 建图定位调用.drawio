@@ -5952,7 +5952,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QuE1NnaggcP4dn0NoQ0n" name="反光柱定位">
-    <mxGraphModel dx="1523" dy="1343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="90" dy="1245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6284,7 +6284,7 @@
         <mxCell id="0MmeBgFUxVw2KpHXGz7q-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0MmeBgFUxVw2KpHXGz7q-86" target="0MmeBgFUxVw2KpHXGz7q-82" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0MmeBgFUxVw2KpHXGz7q-86" value="实例化scanmatch定位对象" style="whiteSpace=wrap;html=1;rounded=0;flipV=0;" parent="1" vertex="1">
+        <mxCell id="0MmeBgFUxVw2KpHXGz7q-86" value="实例化反光柱定位对象" style="whiteSpace=wrap;html=1;rounded=0;flipV=0;" parent="1" vertex="1">
           <mxGeometry x="961" y="15" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0MmeBgFUxVw2KpHXGz7q-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0MmeBgFUxVw2KpHXGz7q-88" target="0MmeBgFUxVw2KpHXGz7q-79" edge="1">
@@ -6309,7 +6309,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0MmeBgFUxVw2KpHXGz7q-93" value="传感器数据是否正常？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="0MmeBgFUxVw2KpHXGz7q-93" value="传感器数据是否正常？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="994" y="429" width="165" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0MmeBgFUxVw2KpHXGz7q-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0MmeBgFUxVw2KpHXGz7q-95" target="0MmeBgFUxVw2KpHXGz7q-78" edge="1">
@@ -6320,7 +6320,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0MmeBgFUxVw2KpHXGz7q-95" value="定位状态 = Location error" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="0MmeBgFUxVw2KpHXGz7q-95" value="定位状态 = Location error" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="889" y="511.94000000000005" width="101.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0MmeBgFUxVw2KpHXGz7q-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.496;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0MmeBgFUxVw2KpHXGz7q-78" target="0MmeBgFUxVw2KpHXGz7q-93" edge="1">
